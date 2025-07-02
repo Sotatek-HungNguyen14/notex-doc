@@ -1,0 +1,8 @@
+{
+  "label": "Create note",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Create note with AI."
+  }
+}
