@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" rx="40" fill="url(#paint0_linear_26113_63570)"/>
+<path d="M45.75 78.4805V110.398" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M149.145 79.8291H161.282" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M149.145 94.2144H166.677" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M139.703 79.8291H140.205" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M139.703 94.2144H140.205" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M139.703 109.949H140.205" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M149.145 109.949H169.374" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M60.582 70.3887L60.582 118.04" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M30.9141 84.3247L30.9141 104.105" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M99.9141 146.479L99.9141 135.945" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<path d="M111.957 149.991H88.3788" stroke="white" stroke-width="7.52497" stroke-linecap="round"/>
+<rect x="75.5867" y="53.9217" width="49.1632" height="80.7681" rx="24.5816" stroke="white" stroke-width="7.52497"/>
+<path d="M109.093 66.872C109.233 66.4167 109.939 66.4164 110.079 66.8717C110.862 69.4079 111.84 70.4236 114.261 71.2548C114.697 71.4043 114.697 72.0703 114.261 72.2199C111.839 73.0516 110.861 74.0679 110.078 76.6075C109.938 77.0626 109.233 77.0626 109.093 76.6075C108.31 74.0679 107.332 73.0516 104.91 72.2199C104.474 72.0703 104.474 71.4042 104.909 71.2545C107.331 70.4224 108.312 69.4039 109.093 66.872Z" fill="white"/>
+<path d="M99.8043 76.1467C98.3424 89.1372 96.3572 91.6907 87.309 93.8975C86.8405 94.0118 86.8405 94.7043 87.3089 94.8186C96.3614 97.0268 98.3315 99.5823 99.8032 112.595C99.8646 113.138 100.718 113.138 100.779 112.595C102.241 99.5821 104.223 97.0267 113.277 94.8185C113.746 94.7043 113.746 94.0118 113.277 93.8975C104.229 91.6907 102.244 89.1372 100.782 76.1467C100.721 75.6034 99.8655 75.6034 99.8043 76.1467Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_26113_63570" x1="5.00606" y1="6.48672" x2="171.8" y2="213.252" gradientUnits="userSpaceOnUse">
+<stop offset="0.397709" stop-color="#0D73FF"/>
+<stop offset="1" stop-color="#00C9DB"/>
+</linearGradient>
+</defs>
+</svg>
