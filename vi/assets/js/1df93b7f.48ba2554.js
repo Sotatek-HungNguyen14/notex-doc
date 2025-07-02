@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotex_doc=self.webpackChunknotex_doc||[]).push([[4583],{6866:(e,o,t)=>{t.r(o),t.d(o,{default:()=>d});var n=t(6347),c=t(4848);function d(){return(0,c.jsx)(n.rd,{to:"/notex-doc/docs/intro"})}}}]);
