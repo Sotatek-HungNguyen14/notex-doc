@@ -144,14 +144,24 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
 **Q: What happens if an upgrade payment fails?**  
 **A:** Your current plan remains active without interruption. After resolving the payment issue, you can retry the plan change without losing features.
 
-**Q: Will I receive a refund when downgrading?**  
-**A:** Downgrades take effect at the start of the next billing cycle. Mid-cycle refunds are not issued, per platform policy.
-
-**Q: How are mid-cycle plan changes billed?**  
+**Q: How are mid-cycle plan changes billed?**
 **A:**
 
-- **Upgrades:** Pro-rated charge for the remaining period is billed immediately
-- **Downgrades:** Current plan remains active until the cycle ends; the new plan begins the next cycle
+**iOS (App Store Billing):**
+
+* **Upgrades:**
+
+  * You're immediately charged the prorated difference for the remaining time on your current billing cycle.
+  * **Example:** Upgrading from a Weekly plan (\$14.99) to a Monthly plan (\$34.99) halfway through the month means you only pay the prorated difference for the remaining 15 days.
+  * New features unlock immediately after payment is successful.
+
+**Android (Google Play Billing):**
+
+* **Upgrades:**
+
+  * Prorated billing: you pay only the difference for the remaining period.
+  * Your billing cycle is then adjusted to align with your original payment date.
+  * Premium features become available right away.
 
 ### Technical Issues
 
@@ -193,8 +203,20 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
 **Q: Does the Lifetime plan include future feature updates?**  
 **A:** Yes. It includes all future premium feature releases and app updates at no additional cost.
 
-**Q: Can I pause my subscription instead of changing plans?**  
-**A:** Subscription pausing is not supported. You may downgrade or cancel to take a temporary break.
+**Q: Can I pause my subscription instead of changing plans?**
+**A:**
+
+**On the App Store (iOS):**
+
+1. Open **Settings** → tap your name → **Subscriptions**
+2. Select the subscription you want to pause → tap **Cancel Subscription**
+
+> Or open the **App Store** → tap your profile avatar → **Subscriptions** → select and cancel
+
+**On Google Play Store (Android):**
+
+1. Open **Play Store** → tap your profile avatar → **Payments & subscriptions** → **Subscriptions**
+2. Select the subscription → tap **Cancel subscription** 
 
 ### Support & Contact
 
