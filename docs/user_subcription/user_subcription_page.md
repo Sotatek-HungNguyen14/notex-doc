@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # NoteX AI Note Taker - Pricing & Features
 
-## 🤖 Overview - How NoteX AI Credits Work
+## Overview - How NoteX AI Credits Work
 
 NoteX uses **AI credits** to power your note-taking experience. Most features are **count-based** (like "1 per day" or "unlimited"), but **audio recordings have time limits** to ensure optimal AI processing quality.
 
@@ -21,7 +21,7 @@ NoteX uses **AI credits** to power your note-taking experience. Most features ar
 
 ---
 
-## 📊 Features Table
+## 1. Features Table
 
 | Feature                     | Basic (FREE) | PRO ($14.99/mo) | Description                                                                  |
 | --------------------------- | ------------ | --------------- | ---------------------------------------------------------------------------- |
@@ -66,26 +66,29 @@ This ensures all users worldwide have their credits refreshed at the same moment
 
 ---
 
-## ❓ Frequently Asked Questions
+## 2. FAQ
 
-### **💳 Billing & Plans**
-
-**Q: Can I change my plan anytime?**
+** Can I change my plan anytime?**
 A: Yes! You can upgrade plans anytime. Changes take effect immediately, and you'll only pay the difference.
 
-**Q: Is there a free trial for PRO?**
+---
+** Is there a free trial for PRO?**
 A: Yes, currently new users get a free trial to test all PRO features before committing.
 
-**Q: What happens if I exceed Basic plan limits?**
+---
+** What happens if I exceed Basic plan limits?**
 A: You'll be notified when approaching limits and can upgrade to PRO for unlimited access.
 
-**Q: Do you offer yearly discounts?**
+---
+** Do you offer yearly discounts?**
 A: Yes! Annual billing saves you 50% compared to monthly payments.
 
-**Q: Can I cancel anytime?**
+---
+** Can I cancel anytime?**
 A: Absolutely! Cancel your subscription anytime with no penalties or hidden fees.
 
-**Q: Do you offer refunds?**
+---
+** Do you offer refunds?**
 A: Yes, we provide a 30-day money-back guarantee for all paid plans.
 
 ---
