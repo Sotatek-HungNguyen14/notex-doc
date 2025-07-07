@@ -4,10 +4,6 @@ sidebar_position: 3
 
 # Upload Document
 
----
-
-## 1. Overview
-
 The **Upload Document** feature allows users to upload text-based files from their device so the system can analyze, summarize, or automatically generate notes using AI.
 
 This feature is ideal for scenarios such as meeting notes, reports, research papers, policy documents, and more—especially when users want to quickly understand the key content or extract important information from long texts.
@@ -21,7 +17,7 @@ This feature is ideal for scenarios such as meeting notes, reports, research pap
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_document.png"/>
@@ -47,7 +43,7 @@ From the home screen, select the **Document** section to open the upload screen.
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open the Upload Document interface
 
@@ -71,18 +67,7 @@ Choose a valid document from your device's local storage.
 
 ---
 
-## 4. After Uploading
-
-Once uploaded, the document will be processed similarly to other content types:
-
-- You can choose a **Summary Style**: Short, Balanced, or Full
-- Adjust the **Writing Style**: Friendly, Neutral, or Professional
-- _(Optional)_ Add **Additional Instructions** to guide AI processing  
-  e.g., `"Summarize only the policy section"` or `"Convert content into bullet points"`
-
----
-
-## 5. Notes & Tips
+## 3. Notes & Tips
 
 - Only supports **files stored locally on your device** — cloud sources like Google Drive, iCloud, Dropbox must be downloaded first
 - Only **one document can be uploaded at a time**
@@ -91,7 +76,7 @@ Once uploaded, the document will be processed similarly to other content types:
 
 ---
 
-## 6. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
 ### What document formats are supported?
 

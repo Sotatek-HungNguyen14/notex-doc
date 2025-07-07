@@ -4,25 +4,25 @@ sidebar_position: 8
 
 # Share Note
 
-## 1. Overview
+The **Share Note** feature allows users to share a note via a public link.  
+The recipient can view selected content such as Summary, Transcript, Document, Mindmap, Slideshow, Flashcards, or Quizzes.  
+You can also set a password for added privacy—only users with the correct password can access the shared note.
 
-Tính năng **Share Note** cho phép người dùng chia sẻ nội dung ghi chú (note) dưới dạng đường link công khai. Người nhận link có thể xem các nội dung đã chọn như tóm tắt, transcript, document, mindmap, slideshow, flashcard... Ngoài ra, bạn có thể đặt mật khẩu để tăng tính bảo mật, chỉ ai có mật khẩu mới truy cập được note đã chia sẻ.
+**Key Benefits:**
 
-**Lợi ích nổi bật:**
-
-- Chia sẻ ghi chú nhanh chóng qua một đường link duy nhất.
-- Tùy chọn nội dung muốn chia sẻ: chỉ tóm tắt, tài liệu, sơ đồ tư duy, flashcard, v.v.
-- Bảo vệ quyền riêng tư bằng mật khẩu nếu cần.
-- Truy cập đa nền tảng, chỉ cần trình duyệt web.
+- Share notes instantly via a single link.
+- Choose specific content to share: Summary, Document, Mindmap, Flashcards, etc.
+- Optionally protect the shared note with a password.
+- Cross-platform access—viewable from any web browser.
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/share_note.jpg"/>
 <br />
-<em>Share Note </em>
+<em>Share Note</em>
 </p>
 
 <p align="center">
@@ -33,63 +33,76 @@ Tính năng **Share Note** cho phép người dùng chia sẻ nội dung ghi ch�
 
 ---
 
-## 3. How to use
+## 2. How to Use
 
-**Các bước thực hiện chức năng Share Note:**
+**Steps to Share a Note:**
 
-1. **Mở note muốn chia sẻ**
-   Vào chi tiết note bất kỳ, nhấn vào nút ba chấm (⋮) góc phải trên cùng.
+1. **Open the note you want to share**  
+   Go to the note detail page and tap the three-dot menu (⋮) in the top-right corner.
 
-2. **Chọn 'Share Note'**
-   Chọn chức năng 'Share Note', bottom sheet Share Note sẽ xuất hiện.
+2. **Select 'Share Note'**  
+   Choose the 'Share Note' option. A Share Note bottom sheet will appear.
 
-3. **Lựa chọn tab nội dung muốn chia sẻ**
+3. **Select the content tabs to share**
 
-- Có thể chọn các tab: Summary, Transcript, Document, Mindmap, Slideshow, Flashcards, Quizzes mà mình muốn hiển thị.
-- Nhấn vào từng tab để chọn hoặc bỏ chọn. Tab nào có dấu tick xanh nghĩa là sẽ hiển thị khi mở link chia sẻ.
-- Có thể nhấn 'Select All' hoặc 'Deselect' để chọn tất cả, hoặc bỏ chọn tất cả.
+- You can choose from: Summary, Transcript, Document, Mindmap, Slideshow, Flashcards, Quizzes.
+- Tap on each tab to include or exclude it. Tabs with a green checkmark will be visible in the shared link.
+- You can use 'Select All' or 'Deselect' for bulk actions.
 
-4. **Lấy link chia sẻ**
+4. **Copy the shareable link**
 
-- Sau khi chọn xong tab, link chia sẻ sẽ hiển thị ở mục 'Share with link'.
-- Nhấn biểu tượng copy để sao chép link.
+- After selecting your content tabs, a shareable link will appear under "Share with link".
+- Tap the copy icon to copy the link to clipboard.
 
-5. **(Tuỳ chọn) Thêm mật khẩu bảo vệ link**
+5. **(Optional) Add a password**
 
-- Bật nút 'Add password' (gạt sang phải).
-- Hệ thống sẽ tạo và hiển thị một mật khẩu.
-- Khi gửi link này cho người khác, người nhận phải nhập đúng mật khẩu mới xem được nội dung.
+- Toggle the **Add password** switch.
+- A system-generated password will appear.
+- Share the password along with the link. Only those with the password can access the content.
 
-6. **Gửi link chia sẻ cho bạn bè, đồng nghiệp**
+6. **Send the link to others**
 
-- Người nhận mở link trên trình duyệt sẽ thấy đúng các tab bạn đã chọn.
-- Nếu bật mật khẩu, người nhận phải nhập đúng password mới xem được.
-
----
-
-## 4. Notes / Tips & Tricks
-
-- **Chỉ những tab được chọn mới xuất hiện khi mở link chia sẻ.** Nếu không muốn người khác xem phần nào, chỉ cần bỏ chọn tab đó.
-- **Mật khẩu sẽ được tự động sinh ra** Hãy lưu mật khẩu cẩn thận để gửi cho người nhận.
-- **Có thể thay đổi lựa chọn tab bất kỳ lúc nào** bằng cách vào lại Share Note và cập nhật.
-- **Link chia sẻ là công khai** nhưng nội dung sẽ được bảo vệ nếu có mật khẩu.
-- **Nhấn vào Save** để lưu lại các giá trị
+- Recipients can open the link in a browser and view only the selected content.
+- If a password is set, they'll need to enter it to view the note.
 
 ---
 
-## 5. FAQ
+## 3. Notes & Tips
 
-**Q: Nếu không bật mật khẩu, ai cũng xem được nội dung chia sẻ đúng không?**
-A: Đúng, chỉ cần có link là xem được, trừ khi bạn bật bảo vệ bằng mật khẩu.
+- **Only selected tabs will be visible** in the shared link. Unchecked tabs remain private.
+- **Passwords are auto-generated**. Be sure to save and share the password with the recipient.
+- **You can update your selection anytime** by revisiting the Share Note screen.
+- **The link is public**, but content is secured if a password is set.
+- **Tap Save** to apply any changes to content tabs or password.
 
-**Q: Có thể chọn nhiều tab cùng lúc không?**
-A: Có. Bạn có thể chọn tất cả hoặc chỉ những tab muốn chia sẻ.
+---
 
-**Q: Khi đổi tab đã chọn hoặc thay đổi mật khẩu, link có thay đổi không?**
-A: Link giữ nguyên, nhưng nội dung hiển thị sẽ cập nhật theo các thay đổi mới nhất bạn lưu.
+## 4. FAQ
 
-**Q: Người nhận link xem trên web có cần tài khoản NoteX không?**
-A: Không cần. Chỉ cần truy cập link, nhập mật khẩu (nếu có), là xem được.
+### If I don't set a password, can anyone view the shared note?
 
-**Q: Có giới hạn số lần chia sẻ hoặc số người truy cập không?**
-A: Hiện tại không giới hạn số lần truy cập với link chia sẻ công khai.
+Yes. Anyone with the link can view it unless a password is enabled.
+
+---
+
+### Can I select multiple tabs at once?
+
+Yes. You can select all or only the tabs you wish to share.
+
+---
+
+### If I change selected tabs or update the password, will the link change?
+
+No. The link stays the same, but the displayed content updates to reflect your latest settings.
+
+---
+
+### Does the recipient need a NoteX account to view the note?
+
+No. They only need the link and password (if set) to view the content.
+
+---
+
+### Is there a limit to how many people can access the link?
+
+No. There is currently no limit on access to public share links.
