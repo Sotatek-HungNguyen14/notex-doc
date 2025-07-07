@@ -16,7 +16,7 @@ sidebar_position: 1
 - **Clean Interface**: Minimalist design with clear visual hierarchy
 - **Safe Deletion**: Choose whether to delete folder contents or preserve notes
 
-## UI/UX Specifications
+## 1. UI/UX Specifications
 
 ### Main Interface Elements:
 
@@ -31,7 +31,7 @@ sidebar_position: 1
  <br/>
 </p>
 
-## How to Use
+## 2. How to Use
 
 ### Step-by-Step Guide:
 
@@ -82,28 +82,35 @@ sidebar_position: 1
 - Tap on any folder to open and view its contents
 - Access subfolders and nested content easily
 
-## FAQ
+## 3. FAQ
 
-**Q: Can I create subfolders within folders?**
+** Can I create subfolders within folders?**
 A: Yes, you can create nested folder structures to organize your content hierarchically.
 
-**Q: What happens when I delete a folder?**
+---
+** What happens when I delete a folder?**
 A: You have two options when deleting a folder:
 
+---
 - **Folder Only**: The folder structure is removed, but all notes inside are preserved and moved to the parent location
 - **Folder + Contents**: Both the folder and all notes within the entire folder tree are permanently deleted
 
-**Q: Can I recover deleted folders or notes?**
+---
+** Can I recover deleted folders or notes?**
 A: Currently, deletion operations are permanent. Always review your selection carefully before confirming deletion.
 
-**Q: What does "Delete notes in this folder tree" mean?**
+---
+** What does "Delete notes in this folder tree" mean?**
 A: This option will delete all notes and subfolders within the selected folder. If unchecked, only the folder structure is removed while preserving all content.
 
-**Q: Can I move folders between different parent folders?**
+---
+** Can I move folders between different parent folders?**
 A: Yes, use the "Move to Folder" option from the three-dot menu to relocate folders within your organizational structure.
 
-**Q: How do I organize my folders effectively?**
+---
+** How do I organize my folders effectively?**
 A: Consider creating a logical hierarchy based on projects, topics, or time periods. Use clear, descriptive names for easy identification.
 
-**Q: Can I undo folder operations?**
+---
+** Can I undo folder operations?**
 A: Currently, folder operations like deletion are permanent. The confirmation dialog helps prevent accidental deletions by clearly showing what will be removed.

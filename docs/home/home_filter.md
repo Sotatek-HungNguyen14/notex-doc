@@ -19,7 +19,7 @@ The **Filter & Sort** component is a convenient dropdown panel that helps you qu
 3. **The arrow will point downward** when the filter panel is open
 4. **Close**: Tap the "X" in the top-right corner or tap outside the panel
 
-## Filter Options
+## 1. Filter Options
 
 ### Content Type Filters
 
@@ -38,7 +38,7 @@ Filter your notes to show only specific types of content:
 - **Icons**: Each content type has its own recognizable icon
 - **Clean layout**: Easy to scan and select what you need
 
-## Sort Options
+## 2. Sort Options
 
 ### Available Sorting Methods
 
@@ -49,13 +49,13 @@ Change how your notes are arranged in the list:
 - **🔤 A to Z** - Alphabetical order by note title
 - **🔤 Z to A** - Reverse alphabetical order
 
-### How Sorting Works
+### 3. How Sorting Works
 
 - **Instant Results**: Your notes rearrange immediately when you select a new sort option
 - **Remembers Your Choice**: The app keeps your preferred sorting method
 - **Works with Filters**: Sorting applies to whatever filter you have active
 
-## User Experience
+## 4. User Experience
 
 ### Quick Actions
 
@@ -69,7 +69,7 @@ Change how your notes are arranged in the list:
 - **Smooth Transitions**: Notes fade in/out smoothly when filters change
 - **Clear Hierarchy**: Filter section appears above Sort section for logical flow
 
-## Common Use Cases
+## 5. Common Use Cases
 
 ### Finding Specific Content
 
@@ -89,7 +89,7 @@ Change how your notes are arranged in the list:
 - **Find duplicates** → Sort alphabetically to spot similar titles
 - **Archive old content** → Sort by "Oldest First" to find notes to archive
 
-## Tips & Best Practices
+## 6. Tips & Best Practices
 
 ### Efficient Filtering
 
@@ -109,22 +109,27 @@ Change how your notes are arranged in the list:
 - **After Importing**: Use type filters to verify new content appeared correctly
 - **During Organization**: Combine filtering with multi-select for bulk actions
 
-## FAQ
+## 7. FAQ
 
 **Q: Do my filter settings save when I close the app?**
 A: No! NoteX resets to the default settings ("All Notes" and "Newest First") each time you open the app, so you'll need to reapply your preferred filters and sorting if you want a different view.
 
+---
 **Q: Can I filter by multiple content types at once?**
 A: Currently, you can only filter by one content type at a time. Use "All Notes" to see everything, then sort as needed.
 
+---
 **Q: What happens if I have no notes of a certain type?**
 A: You can still select that filter - you'll just see an empty list. This is actually helpful for confirming you don't have any content of that type.
 
+---
 **Q: Does filtering affect my folders and shared notes?**
 A: No, filtering only works in the "All Notes" tab. Your folders and shared content have their own organization systems.
 
+---
 **Q: Can I search within a filtered view?**
 A: Absolutely! Use the search icon (🔍) at the top while any filter is active - it will only search within the filtered results.
 
+---
 **Q: Does sorting affect how new notes appear?**
 A: New notes always follow your current sort setting. If you're using "Newest First," new notes appear at the top. If you're using alphabetical sorting, they'll appear in the right alphabetical position.

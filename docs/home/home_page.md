@@ -14,7 +14,7 @@ The **All Notes** tab is your main dashboard where you can see and manage all yo
 - **Bulk Management**: Select multiple notes at once to organize them faster
 - **Live Updates**: Watch your notes appear as you create them
 
-## UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/home_fullnotes.png"/> 
@@ -40,7 +40,7 @@ The **All Notes** tab is your main dashboard where you can see and manage all yo
 - **Easy Actions**: Tap the three dots on any note for more options
 - **Smooth Navigation**: Everything responds instantly to your touches
 
-## How to Use / User Guide
+## 2. How to Use
 
 ### Browsing Your Notes
 
@@ -88,7 +88,7 @@ The **All Notes** tab is your main dashboard where you can see and manage all yo
 
 4. **When You're Done**: Tap "Cancel" to go back to normal browsing
 
-## Different Views You'll See
+## 3. Different Views You'll See
 
 ### When You're Just Starting Out
 
@@ -123,22 +123,27 @@ The **All Notes** tab is your main dashboard where you can see and manage all yo
 - **What You Can Do**: Move or delete multiple notes at once
 - **How to Tell**: Selected notes have blue checkmarks
 
-## Frequently Asked Questions
+## 4. Frequently Asked Questions
 
 **Q: How do I keep my notes organized?**
 A: Great question! Tap the three dots next to any note and choose "Move to Folder." You can also select multiple notes at once to organize them faster.
 
+---
 **Q: Oops, I deleted a note by mistake! Can I get it back?**
 A: Unfortunately, deleted notes are gone for good. Here's a tip: instead of deleting, try moving notes to a folder called "Archive" - that way you can always find them later!
 
+---
 **Q: What's the difference between "Export" and "Share Note"?**
 A: Think of Export as "send a copy somewhere else" (like saving to Google Drive), while Share Note means "let my friends work on this with me" - it's for real-time collaboration.
 
+---
 **Q: My note has been saying "Creating Note..." forever. What's going on?**
 A: This usually happens with longer voice recordings or bigger files. It's just taking time to process everything. Grab a coffee - it'll be ready soon! If you have a slow internet connection, it might take a bit longer.
 
+---
 **Q: How do I find a specific note when I have tons of them?**
 A: Easy! Tap the magnifying glass (🔍) at the top of your screen. You can search by the note's title, what's inside it, or any tags you've added.
 
+---
 **Q: I accidentally turned on that selection mode with all the checkboxes. How do I get out?**
 A: No worries! Just tap "Cancel" at the top right of your screen and you'll be back to normal browsing mode.
