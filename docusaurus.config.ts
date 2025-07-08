@@ -125,6 +125,17 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      require.resolve('docusaurus-plugin-search-local'),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+      },
+    ],
+  ],
 };
 
 export default config;
