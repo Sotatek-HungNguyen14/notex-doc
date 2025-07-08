@@ -4,8 +4,6 @@ sidebar_position: 10
 
 # Login
 
----
-
 The **Login** feature allows you to access your personal account in the NoteX app.
 
 > Secure login – sync your data across all devices.

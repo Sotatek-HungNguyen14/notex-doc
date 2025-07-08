@@ -4,7 +4,6 @@ sidebar_position: 9
 
 # Logout or Delete Account
 
----
 
 The **Logout** feature allows you to safely sign out of your current account on the NoteX app, while **Delete Account** lets you permanently remove your account and all related data from the system.
 

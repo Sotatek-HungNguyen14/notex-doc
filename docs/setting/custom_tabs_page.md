@@ -4,8 +4,6 @@ sidebar_position: 5
 
 # Customize Note Tabs
 
----
-
 The **Customize Note Tabs** feature lets you choose which of these learning tabs you want to see inside your notes. This allows you to hide tools you don't need and focus on what's most important for your study style.
 
 By default, every note you create will show all available tabs.

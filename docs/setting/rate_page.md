@@ -4,7 +4,6 @@ sidebar_position: 3
 
 # Rate Us 
 
----
 
 The **Rate Us** feature provides a quick and easy way to share your feedback on the App Store or Google Play Store.
 

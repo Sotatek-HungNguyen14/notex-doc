@@ -4,7 +4,6 @@ sidebar_position: 8
 
 # Referral
 
----
 
 The Referral feature enables users to earn additional credits by inviting friends to join the application and redeeming referral codes from other users. This mutual reward system provides both referrers and new users with bonus credits to access premium AI features and enhance their note-taking experience.
 
@@ -62,6 +61,12 @@ Home Screen → Avatar Icon ( Settings ) → Refer & Rewards Section
 6. Choose your preferred sharing method (email, social media, messaging apps)
 7. The app automatically includes your code and invitation message
 
+<p align="center">
+  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/referral_get_code.png" />
+  <br/>
+  <em>Personal referral code and sharing options on the referral guide page</em>
+</p>
+
 **Step 3: Enter Someone Else's Referral Code**
 
 1. From the Refer & Rewards section, tap **Enter Referral Code**
@@ -70,6 +75,12 @@ Home Screen → Avatar Icon ( Settings ) → Refer & Rewards Section
 4. Observe real-time validation (red border indicates invalid format)
 5. Tap **Redeem** when the code is valid and properly formatted
 6. Receive confirmation message showing credited amount
+
+<p align="center">
+  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/referral_enter_code.png" />
+  <br/>
+  <em>Referral code entry dialog with real-time validation and redeem button</em>
+</p>
 
 **Step 4: Monitor Your Referral Credits**
 
@@ -80,6 +91,12 @@ Home Screen → Avatar Icon ( Settings ) → Refer & Rewards Section
    - **Credits Earned**: Total credits accumulated through referrals
    - **Credits Used**: Total credits spent on AI note generation
 3. Pull down to refresh data and sync latest referral information
+
+<p align="center">
+  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/referral_credits.png" />
+  <br/>
+  <em>Detailed view of available, earned, and used referral credits</em>
+</p>
 
 **Step 5: Track Credit Usage**
 

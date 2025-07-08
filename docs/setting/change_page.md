@@ -4,7 +4,6 @@ sidebar_position: 4
 
 # Change Theme 
 
----
 
 The **Change Theme** feature allows you to customize the app's appearance based on your personal preference or your device’s system settings.
 

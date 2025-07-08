@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Change Plan 
 
----
-
 The Change Plan feature allows users to switch their current subscription plan to better suit their usage needs and desired features. This functionality integrates seamlessly with the platform’s native payment system.
 
 **Key Benefits**
@@ -126,13 +124,19 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
 
 ### Will changing my plan affect my existing data or notes?**  
 No. All your data, notes, folders, and content remain intact. Only your plan’s features and limits are modified.
+
 ---
+
 ### Can I change my plan multiple times?**  
 Yes. You can switch plans as often as needed, subject to platform billing policies and processing limits.
+
 ---
+
 ### Are there any restrictions on which plans I can switch between?**  
 No. You are free to switch among any available subscription tiers.
+
 ---
+
 ### Billing & Payment Issues
 
 ### Why is my payment declined when changing plans?**  
@@ -143,10 +147,14 @@ Common causes include:
 - Geographic restrictions on payment processing
 - Platform payment system maintenance  
   **Solution:** Update your payment information in your App Store or Google Play account settings.
+
 ---
+
 ### What happens if an upgrade payment fails?**  
 Your current plan remains active without interruption. After resolving the payment issue, you can retry the plan change without losing features.
+
 ---
+
 ### How are mid-cycle plan changes billed?**
 
 **iOS (App Store Billing):**
@@ -164,7 +172,9 @@ Your current plan remains active without interruption. After resolving the payme
   * Prorated billing: you pay only the difference for the remaining period.
   * Your billing cycle is then adjusted to align with your original payment date.
   * Premium features become available right away.
+
 ---
+
 ### Technical Issues
 
 ### Why is the Change Plan button not showing or disabled?**  
@@ -175,10 +185,14 @@ Ensure that:
 - You are logged into an account with an active subscription
 - The app is updated to the latest version  
   **Solution:** Restart the app and try again.
+  
 ---
+
 ### My plan changed successfully but features haven’t updated.**  
 Synchronization may take 2–3 minutes. Force-close the app, reopen it, wait 5 minutes, and contact support if the issue persists.
+
 ---
+
 ### Access & Navigation Issues
 
 ### I can’t find the Account section in Settings.**  
@@ -187,7 +201,9 @@ Synchronization may take 2–3 minutes. Force-close the app, reopen it, wait 5 m
 2. Or tap the avatar from any screen header
 3. Ensure you’re logged into a subscription-enabled account
 4. Update the app if the Account section is missing
+
 ---
+
 ### The app crashes when I attempt to change plans.**  
 Possible causes:
 
@@ -195,15 +211,21 @@ Possible causes:
 - Outdated app version
 - Conflicts with the payment system  
   **Solution:** Update the app, restart your device, and free up storage space.
+
 ---
+
 ### Plan-Specific Questions
 
 ### Besides price, what’s the difference between Quarterly and Annual plans?**  
 They offer identical feature sets. The differences are billing frequency (every 3 months vs. every 12 months) and total annual cost (the annual plan is more economical).
+
 ---
+
 ### Does the Lifetime plan include future feature updates?**  
 Yes. It includes all future premium feature releases and app updates at no additional cost.
+
 ---
+
 ### Can I pause my subscription instead of changing plans?**
 
 **On the App Store (iOS):**
@@ -217,7 +239,9 @@ Yes. It includes all future premium feature releases and app updates at no addit
 
 1. Open **Play Store** → tap your profile avatar → **Payments & subscriptions** → **Subscriptions**
 2. Select the subscription → tap **Cancel subscription** 
+
 ---
+
 ### Support & Contact
 
 ### Who should I contact if I continue experiencing issues?**  
@@ -225,7 +249,9 @@ Yes. It includes all future premium feature releases and app updates at no addit
 - **Email:** [hello@notexapp.com](mailto:hello@notexapp.com) (24/7 support)
 - **In-app:** Settings → Contact Support (includes diagnostic information)
 - **Live Chat:** Available during business hours via our support portal
+
 ---
+
 ### What information should I provide when reporting plan change issues?**  
 - Your current and desired subscription plans
 - Any error messages or screenshots

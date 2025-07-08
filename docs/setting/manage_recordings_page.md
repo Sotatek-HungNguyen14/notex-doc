@@ -4,8 +4,6 @@ sidebar_position: 7
 
 # Manage Recordings 
 
----
- 
 The Manage Recordings feature provides comprehensive management capabilities for local audio recordings stored on your device. This functionality enables users to preview, organize, and manipulate saved audio files with integrated playback controls and processing options.
 
 **Key Benefits**
@@ -131,6 +129,7 @@ Ensure you're navigating correctly:
 4. Restart the app if the option doesn't appear
 
 ---
+
 ### The Manage Recordings screen is empty but I know I have recordings.**  
 This can occur due to:
 
@@ -140,6 +139,7 @@ This can occur due to:
 - **Solution**: Try creating a new test recording to verify the feature is working, then restart the app
 
 ---
+
 ### The app crashes when I open Manage Recordings.**  
 Common causes include:
 
@@ -149,6 +149,7 @@ Common causes include:
 - **Solution**: Free up device storage, update the app, and restart your device
 
 ---
+
 **Playback & Audio Issues**
 
 ### Recordings won't play when I tap on them.**  
@@ -161,6 +162,7 @@ Verify these potential issues:
 - **Solution**: Try playing different recordings to isolate the issue
 
 ---
+
 ### Audio playback stops unexpectedly during recordings.**  
 Interruptions can be caused by:
 
@@ -170,6 +172,7 @@ Interruptions can be caused by:
 - **Solution**: Ensure Do Not Disturb mode during important playback sessions
 
 ---
+
 ### The progress slider doesn't work or jumps erratically.**  
 Slider issues typically indicate:
 
@@ -179,6 +182,7 @@ Slider issues typically indicate:
 - **Solution**: Try restarting the app and test with different recordings
 
 ---
+
 ### I can hear audio but the time indicators show incorrect durations.**  
 Duration calculation problems may result from:
 
@@ -187,6 +191,7 @@ Duration calculation problems may result from:
 - **Solution**: Duration discrepancies don't affect playback quality; metadata may simply be inaccurate
 
 ---
+
 **File Management & Actions**
 
 ### The "Regenerate" option doesn't work for my recordings.**  
@@ -199,6 +204,7 @@ Regeneration failures can occur due to:
 - **Solution**: Verify credits and connectivity, then retry after a few minutes
 
 ---
+
 ### Sharing recordings doesn't work with certain apps.**  
 Sharing compatibility depends on:
 
@@ -208,6 +214,7 @@ Sharing compatibility depends on:
 - **Solution**: Try sharing with different apps or convert audio format if needed
 
 ---
+
 ### Deleted recordings still appear in the list.**  
 Persistent recordings after deletion suggest:
 
@@ -216,6 +223,7 @@ Persistent recordings after deletion suggest:
 - **Solution**: Pull down to refresh the list or restart the app to update the display
 
 ---
+
 ### I accidentally deleted an important recording. Can I recover it?**  
 Recovery options are limited:
 
@@ -225,6 +233,7 @@ Recovery options are limited:
 - **Prevention**: Consider sharing important recordings to external storage before deletion
 
 ---
+
 **Failed Recordings & Processing**
 
 ### What does the red indicator on some recordings mean?**  
@@ -236,6 +245,7 @@ Red indicators identify recordings with failed processing:
 - File corruption preventing successful processing
 
 ---
+
 ### How do I fix recordings that show as failed?**  
 Failed recording recovery options:
 
@@ -245,6 +255,7 @@ Failed recording recovery options:
 4. If regeneration fails repeatedly, try sharing the file instead
 
 ---
+
 ### Can I prevent recordings from failing in the future?**  
 Minimize processing failures by:
 
@@ -254,6 +265,7 @@ Minimize processing failures by:
 - Recording in quiet environments to improve AI transcription accuracy
 
 ---
+
 **Storage & Performance**
 
 ### How much storage space do recordings typically use?**  
@@ -265,6 +277,7 @@ Storage consumption varies by:
 - **Management**: Regularly delete unnecessary recordings to maintain available storage
 
 ---
+
 ### Do recordings sync across multiple devices?**  
 Local recordings are device-specific:
 
@@ -273,6 +286,7 @@ Local recordings are device-specific:
 - **Cross-device access**: Use the regenerate function to create synced notes from recordings
 
 ---
+
 ### What happens to recordings when I reinstall the app?**  
 App reinstallation affects local recordings:
 
@@ -281,6 +295,7 @@ App reinstallation affects local recordings:
 - **Backup strategy**: Share important recordings to external storage before reinstalling
 
 ---
+
 **Technical & Advanced Issues**
 
 ### Can I change the audio format or quality of recordings?**  
@@ -292,6 +307,7 @@ Audio format specifications:
 - **External conversion**: Use third-party apps for format conversion if needed
 
 ---
+
 ### Why do some recordings have different file sizes despite similar lengths?**  
 File size variations result from:
 
@@ -301,6 +317,7 @@ File size variations result from:
 - **Normal behavior**: File size differences are expected and don't indicate problems
 
 ---
+
 **Support & Escalation**
 
 ### Who should I contact if Manage Recordings issues persist?**  
@@ -311,6 +328,7 @@ Contact support through:
 - **Live chat**: Available during business hours for technical recording issues
 
 ---
+
 ### What information should I provide when reporting Manage Recordings problems?**  
 Include:
 
