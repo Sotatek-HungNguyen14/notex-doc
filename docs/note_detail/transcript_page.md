@@ -32,8 +32,8 @@ It serves as the foundation for creating summaries and helps you easily search, 
 
 ## 3. How to Use
 
-🔹 **Step 1:** Access the note detail  
-🔹 **Step 2:** Switch to the **Transcript** tab
+ **Step 1:** Access the note detail  
+ **Step 2:** Switch to the **Transcript** tab
 
 Transcript is displayed by timestamp or speaker segment:
 
@@ -74,17 +74,17 @@ This is ideal for correcting voice recognition errors, adding/removing details, 
 
 ## 3. How to Use
 
-🔹 **Step 1:** Open the note detail and go to the **Transcript** tab  
-🔹 **Step 2:** Click on the section of transcript you want to edit
+ **Step 1:** Open the note detail and go to the **Transcript** tab  
+ **Step 2:** Click on the section of transcript you want to edit
 
 - An edit icon will appear at the bottom of each block
 - Click to enter editing mode
 
-🔹 **Step 3:** Edit the content as needed
+ **Step 3:** Edit the content as needed
 
 - You can use basic formatting (if supported), such as **bold**, _italic_, or numbered lists
 
-🔹 **Step 4:** Click **Save** to confirm your edits
+ **Step 4:** Click **Save** to confirm your edits
 
 - The system will update the transcript with your latest version
 

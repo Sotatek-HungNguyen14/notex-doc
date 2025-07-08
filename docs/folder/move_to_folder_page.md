@@ -122,37 +122,54 @@ If you try to create a folder with a name that already exists:
 
 ## 4. FAQ
 
-** How do I know where my items currently are?**
-A: Your current location is marked with a blue checkmark. This shows you where your items are right now.
+### How do I know where my items currently are?
+
+Your current location is marked with a blue checkmark. This shows you where your items are right now.
 
 ---
-** Can I create folders at any level?**
-A: Yes! You can create new folders anywhere in your structure. The new folder will be created at the level you're currently viewing.
+
+### Can I create folders at any level?
+
+Yes! You can create new folders anywhere in your structure. The new folder will be created at the level you're currently viewing.
 
 ---
-** What happens if I try to create a folder with a name that already exists?**
-A: The app will ask if you want to create a new folder with an adjusted name (like adding a number). You can choose to do this or cancel and pick a different name.
+
+### What happens if I try to create a folder with a name that already exists?
+
+The app will ask if you want to create a new folder with an adjusted name (like adding a number). You can choose to do this or cancel and pick a different name.
 
 ---
-** Can I move multiple items at once?**
-A: Absolutely! Select multiple items first, then choose "Move" to relocate them all to the same destination.
+
+### Can I move multiple items at once?
+
+Absolutely! Select multiple items first, then choose "Move" to relocate them all to the same destination.
 
 ---
-** How do I cancel if I change my mind?**
-A: Just tap the "X" button at the top right or tap outside the bottom sheet to cancel without moving anything.
+
+### How do I cancel if I change my mind?
+
+Just tap the "X" button at the top right or tap outside the bottom sheet to cancel without moving anything.
 
 ---
-** Can I see what's inside folders before moving items there?**
-A: Yes! Tap the arrow (>) next to any folder to expand it and see its subfolders.
+
+### Can I see what's inside folders before moving items there?
+
+Yes! Tap the arrow (>) next to any folder to expand it and see its subfolders.
 
 ---
-** What's the difference between "All Notes" and other folders?**
-A: "All Notes" is your main container that holds everything. Other folders are organized spaces within it where you can sort your content.
+
+### What's the difference between "All Notes" and other folders?
+
+"All Notes" is your main container that holds everything. Other folders are organized spaces within it where you can sort your content.
 
 ---
-** Can I move folders into other folders?**
-A: Yes! You can move entire folders (and everything inside them) to different locations in your folder structure.
+
+### Can I move folders into other folders?
+
+Yes! You can move entire folders (and everything inside them) to different locations in your folder structure.
 
 ---
-** Will I lose my items if something goes wrong during the move?**
-A: No, your items are safely moved to the new location. If there's any issue, your content remains in its original location.
+
+### Will I lose my items if something goes wrong during the move?
+
+No, your items are safely moved to the new location. If there's any issue, your content remains in its original location.

@@ -30,8 +30,8 @@ It helps save time by providing key takeaways instead of requiring you to listen
 
 ## 3. How to Use
 
-🔹 **Step 1:** Open any note detail.  
-🔹 **Step 2:** The **Summary** tab appears right on the main screen.
+ **Step 1:** Open any note detail.  
+ **Step 2:** The **Summary** tab appears right on the main screen.
 
 You can:
 
@@ -77,10 +77,10 @@ Your ratings help improve the accuracy and relevance of future summaries.
 
 ## 3. How to Use
 
-🔹 **Step 1:** Generate or open a summary  
+ **Step 1:** Generate or open a summary  
 Once the transcript is processed, go to the **Summary** tab to view the content.
 
-🔹 **Step 2:** Rate the summary  
+ **Step 2:** Rate the summary  
 Below the summary, you’ll see a star rating interface ⭐.
 
 Tap the number of stars that reflects your feedback:
@@ -89,7 +89,7 @@ Tap the number of stars that reflects your feedback:
 - **3 stars:** Acceptable, but needs improvement
 - **4–5 stars:** Very good, accurate and clear
 
-🔹 **Step 3 (Optional):** Submit detailed feedback  
+ **Step 3 (Optional):** Submit detailed feedback  
 After rating, you can add a comment to clarify your reasoning.  
 Examples:
 
@@ -163,15 +163,15 @@ This helps you personalize the content for specific uses such as reports, emails
 
 ## 3. How to Use
 
-🔹 **Step 1:** Open the note detail and select the **Summary** tab.  
-🔹 **Step 2:** Click on the summary text.  
+ **Step 1:** Open the note detail and select the **Summary** tab.  
+ **Step 2:** Click on the summary text.  
 An edit icon will appear either in the corner or below the summary.  
 Click it to enter edit mode.
 
-🔹 **Step 3:** Modify the content as desired.  
+ **Step 3:** Modify the content as desired.  
 You may use basic formatting (if supported), like **bold**, _italic_, or numbered lists.
 
-🔹 **Step 4:** Click **Save** to confirm your changes.  
+ **Step 4:** Click **Save** to confirm your changes.  
 The system will update the summary to reflect your new version.
 
 ---

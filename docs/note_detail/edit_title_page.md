@@ -29,9 +29,9 @@ The **Edit Title** feature allows you to quickly and easily modify the title of 
 
 ## 3. Benefits
 
-- ✅ **Quick updates**: Change titles to match new content or usage purposes.
-- ✅ **Effective organization**: Helps you categorize and find notes more easily.
-- ✅ **Flexible customization**: You can edit the title anytime.
+- **Quick updates**: Change titles to match new content or usage purposes.
+- **Effective organization**: Helps you categorize and find notes more easily.
+- **Flexible customization**: You can edit the title anytime.
 
 ---
 
@@ -41,66 +41,62 @@ The **Edit Title** feature allows you to quickly and easily modify the title of 
 - Some systems may limit the number of characters allowed in a title.
 - Changing the title does not affect the content inside the note.
 
-# ❓ FAQ – Edit Title Feature
+# 5. FAQ
 
----
-
-### 1. Can I change the title of any note?
+### Can I change the title of any note?
 
 Yes, you can edit the title of any note at any time.
 
 ---
 
-### 2. How do I edit a note’s title?
+### How do I edit a note's title?
 
 Open the note, click on the current title, enter a new title, then press **Done** to save.
 
 ---
 
-### 3. Are there any character limits for titles?
+### Are there any character limits for titles?
 
 Some systems may impose character limits; try to keep titles concise and clear.
 
 ---
 
-### 4. Does changing the title affect the note content?
+### Does changing the title affect the note content?
 
 No, editing the title only changes the label and does not alter the note content.
 
 ---
 
-### 5. Can I revert to the old title after changing it?
+### Can I revert to the old title after changing it?
 
 There is no automatic undo for title changes; you can manually change it back if needed.
 
 ---
 
-### 6. Will the updated title appear everywhere immediately?
+### Will the updated title appear everywhere immediately?
 
 Yes, the new title is updated instantly across your app and synced devices.
 
 ---
 
-### 7. Can titles contain special characters or emojis?
+### Can titles contain special characters or emojis?
 
 This depends on the system's input rules; generally, simple text is recommended for clarity.
 
 ---
 
-### 8. What if I accidentally leave the title blank?
+### What if I accidentally leave the title blank?
 
 Most systems will require a non-empty title; if left blank, it may revert to the previous title or prompt you to enter a valid one.
 
 ---
 
-### 9. Can I use the Edit Title feature offline?
+### Can I use the Edit Title feature offline?
 
 Usually, yes. Changes will sync once internet connection is restored.
 
 ---
 
-### 10. What if the title does not update?
+### What if the title does not update?
 
 Try refreshing the app or restarting. If the issue persists, contact support.
-
----

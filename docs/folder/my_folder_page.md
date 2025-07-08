@@ -84,33 +84,46 @@ sidebar_position: 1
 
 ## 3. FAQ
 
-** Can I create subfolders within folders?**
-A: Yes, you can create nested folder structures to organize your content hierarchically.
+Here's the FAQ formatted with questions, line breaks, and separators without numbers:
+
+### Can I create subfolders within folders?
+
+Yes, you can create nested folder structures to organize your content hierarchically.
 
 ---
-** What happens when I delete a folder?**
-A: You have two options when deleting a folder:
 
----
+### What happens when I delete a folder?
+
+You have two options when deleting a folder:
 - **Folder Only**: The folder structure is removed, but all notes inside are preserved and moved to the parent location
 - **Folder + Contents**: Both the folder and all notes within the entire folder tree are permanently deleted
 
 ---
-** Can I recover deleted folders or notes?**
-A: Currently, deletion operations are permanent. Always review your selection carefully before confirming deletion.
+
+### Can I recover deleted folders or notes?
+
+Currently, deletion operations are permanent. Always review your selection carefully before confirming deletion.
 
 ---
-** What does "Delete notes in this folder tree" mean?**
-A: This option will delete all notes and subfolders within the selected folder. If unchecked, only the folder structure is removed while preserving all content.
+
+### What does "Delete notes in this folder tree" mean?
+
+This option will delete all notes and subfolders within the selected folder. If unchecked, only the folder structure is removed while preserving all content.
 
 ---
-** Can I move folders between different parent folders?**
-A: Yes, use the "Move to Folder" option from the three-dot menu to relocate folders within your organizational structure.
+
+### Can I move folders between different parent folders?
+
+Yes, use the "Move to Folder" option from the three-dot menu to relocate folders within your organizational structure.
 
 ---
-** How do I organize my folders effectively?**
-A: Consider creating a logical hierarchy based on projects, topics, or time periods. Use clear, descriptive names for easy identification.
+
+### How do I organize my folders effectively?
+
+Consider creating a logical hierarchy based on projects, topics, or time periods. Use clear, descriptive names for easy identification.
 
 ---
-** Can I undo folder operations?**
-A: Currently, folder operations like deletion are permanent. The confirmation dialog helps prevent accidental deletions by clearly showing what will be removed.
+
+### Can I undo folder operations?
+
+Currently, folder operations like deletion are permanent. The confirmation dialog helps prevent accidental deletions by clearly showing what will be removed.

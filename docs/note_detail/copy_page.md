@@ -34,69 +34,69 @@ The **Copy** feature allows you to quickly copy content from a Transcript, Summa
 
 ## 3. Benefits
 
-- ✅ **Fast**: No need to manually select each section of text.
-- ✅ **Convenient**: Ideal for quoting or sharing instantly.
-- ✅ **Clean formatting**: Copied text keeps a neat structure without HTML tags or strange characters.
+- **Fast**: No need to manually select each section of text.
+- **Convenient**: Ideal for quoting or sharing instantly.
+- **Clean formatting**: Copied text keeps a neat structure without HTML tags or strange characters.
 
-# ❓ FAQ – Copy Feature
+# 4. FAQ
 
 ---
 
-### 1. What can I copy using the Copy feature?
+### What can I copy using the Copy feature?
 
 You can quickly copy content from the Transcript, Summary, or any text section within a note.
 
 ---
 
-### 2. How do I copy content?
+### How do I copy content?
 
 Open the note detail, click the **More** button (top-right corner), then select **Copy**. Choose either **Summary** or **Transcript** to copy the content to your clipboard.
 
 ---
 
-### 3. Will the copied text keep its formatting?
+### Will the copied text keep its formatting?
 
 Yes, the copied content maintains clean and neat formatting without unwanted HTML tags or special characters.
 
 ---
 
-### 4. Can I copy multiple sections at once?
+### Can I copy multiple sections at once?
 
 The Copy feature copies either the entire Summary or the entire Transcript section at once, not multiple different sections simultaneously.
 
 ---
 
-### 5. Is there a limit to how much content I can copy?
+### Is there a limit to how much content I can copy?
 
 There is no specific limit mentioned, but very large notes may take slightly longer to copy.
 
 ---
 
-### 6. What happens after I click Copy?
+### What happens after I click Copy?
 
 A confirmation message “Copied!” will appear indicating the content is successfully copied to your clipboard.
 
 ---
 
-### 7. Can I paste the copied content anywhere?
+### Can I paste the copied content anywhere?
 
 Yes, you can paste it into emails, documents, reports, chat apps, or any text input area.
 
 ---
 
-### 8. Does copying affect the original note?
+### Does copying affect the original note?
 
 No, copying only duplicates the content to your clipboard and does not alter the original note.
 
 ---
 
-### 9. Can I use keyboard shortcuts for copying?
+### Can I use keyboard shortcuts for copying?
 
 Currently, copying is done via the **Copy** button in the interface. You can use standard shortcuts like `Ctrl + V` to paste.
 
 ---
 
-### 10. What if the Copy button does not work?
+### What if the Copy button does not work?
 
 Try refreshing the page or reopening the note. If the problem persists, contact support for assistance.
 

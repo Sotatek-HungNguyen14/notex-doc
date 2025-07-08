@@ -145,38 +145,54 @@ You have different options depending on what you're working with:
 3. The new folder will appear inside your current folder
 
 ## 4. FAQ
+### How do I move several notes to another folder at once?
 
-** How do I move several notes to another folder at once?**
-A: Press and hold any note to start selecting, check the boxes for all notes you want to move, then tap "Move" and pick where you want them to go.
-
----
-** What's the difference between creating a new note and adding a note?**
-A: "Add Note" lets you take notes you already have and put them in this folder. To create brand new notes, you'd use the main note creation feature elsewhere in the app.
+Press and hold any note to start selecting, check the boxes for all notes you want to move, then tap "Move" and pick where you want them to go.
 
 ---
-** What's the difference between the Folders section and All Notes section?**
-A: The Folders section shows other folders inside this one, while All Notes shows individual notes. You can hide either section if you don't need to see it.
+
+### What's the difference between creating a new note and adding a note?
+
+"Add Note" lets you take notes you already have and put them in this folder. To create brand new notes, you'd use the main note creation feature elsewhere in the app.
 
 ---
-** How do I make a new folder inside this one?**
-A: Tap the "+" button at the top and type in what you want to call your new folder.
+
+### What's the difference between the Folders section and All Notes section?
+
+The Folders section shows other folders inside this one, while All Notes shows individual notes. You can hide either section if you don't need to see it.
 
 ---
-** Can I rename my folders and notes here?**
-A: Yes! Tap the three-dot menu next to any item and choose "Edit Name" to change what it's called.
+
+### How do I make a new folder inside this one?
+
+Tap the "+" button at the top and type in what you want to call your new folder.
 
 ---
-** What happens if I delete a folder that has notes in it?**
-A: The app will ask if you want to keep the notes (and move them somewhere else) or delete everything together.
+
+### Can I rename my folders and notes here?
+
+Yes! Tap the three-dot menu next to any item and choose "Edit Name" to change what it's called.
 
 ---
-** How do I stop selecting multiple items?**
-A: Tap the "Cancel" button at the top right, or use the back button to return to normal viewing.
+
+### What happens if I delete a folder that has notes in it?
+
+The app will ask if you want to keep the notes (and move them somewhere else) or delete everything together.
 
 ---
-** Why do folders and notes have different menu options?**
-A: Each type of item has actions that make sense for it. Folders can have notes added to them, while individual notes can be exported or shared.
+
+### How do I stop selecting multiple items?
+
+Tap the "Cancel" button at the top right, or use the back button to return to normal viewing.
 
 ---
-** Can I filter notes by type when adding them?**
-A: Yes! When you choose "Add Note," you can filter by types like Recording, Audio, YouTube, Document, or Web Link to find exactly what you're looking for.
+
+### Why do folders and notes have different menu options?
+
+Each type of item has actions that make sense for it. Folders can have notes added to them, while individual notes can be exported or shared.
+
+---
+
+### Can I filter notes by type when adding them?
+
+Yes! When you choose "Add Note," you can filter by types like Recording, Audio, YouTube, Document, or Web Link to find exactly what you're looking for.

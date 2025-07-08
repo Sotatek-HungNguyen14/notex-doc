@@ -42,9 +42,9 @@ The **Slideshow** feature allows you to present Transcript or Summary content as
 
 ## 3. Benefits
 
-- ✅ **Visual clarity**: Presents each content section clearly and accessibly.
-- ✅ **Professional**: Suitable for meetings, teaching, or idea sharing.
-- ✅ **Convenient**: No need to manually create slides—the system automatically converts the content.
+- **Visual clarity**: Presents each content section clearly and accessibly.
+- **Professional**: Suitable for meetings, teaching, or idea sharing.
+- **Convenient**: No need to manually create slides—the system automatically converts the content.
 
 ---
 

@@ -51,9 +51,7 @@ The **Translate** feature allows you to quickly and accurately translate content
 - You can view both the original and translated versions for easy comparison.
 - For longer content, translation may take a few seconds to complete.
 
-# ❓ FAQ – Translate Feature
-
----
+# 5. FAQ
 
 ### 1. What content can be translated?
 
