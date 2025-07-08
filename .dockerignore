@@ -48,7 +48,6 @@ Dockerfile
 README.md
 CHANGELOG.md
 LICENSE
-*.md
 
 # Coverage and testing
 coverage

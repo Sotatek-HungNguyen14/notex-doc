@@ -7,9 +7,12 @@ WORKDIR /app
 # Copy package files
 COPY package*.json yarn.lock* ./
 
+# Remove package-lock.json if yarn.lock exists to avoid conflicts
+RUN if [ -f yarn.lock ] && [ -f package-lock.json ]; then rm package-lock.json; fi
+
 # Install dependencies with production flag to optimize node_modules
 RUN \
-  if [ -f yarn.lock ]; then yarn --frozen-lockfile --production=false; \
+  if [ -f yarn.lock ]; then yarn --production=false; \
   elif [ -f package-lock.json ]; then npm ci; \
   else echo "Lockfile not found." && exit 1; \
   fi
@@ -33,13 +36,19 @@ COPY package*.json yarn.lock* ./
 
 # Install only production dependencies
 RUN \
-  if [ -f yarn.lock ]; then yarn --frozen-lockfile --production=true; \
+  if [ -f yarn.lock ]; then yarn --production=true; \
   elif [ -f package-lock.json ]; then npm ci --only=production; \
   else echo "Lockfile not found." && exit 1; \
   fi
 
 # Copy built application
 COPY --from=base /app/build ./build
+# Corrected paths: Copy docusaurus.config.ts and sidebars.ts directly
+COPY --from=base /app/docusaurus.config.ts ./docusaurus.config.ts
+COPY --from=base /app/sidebars.ts ./sidebars.ts
+
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
 
 # Expose port 3344
 EXPOSE 3344
@@ -49,4 +58,4 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
   CMD wget -q -O - http://localhost:3344/ || exit 1
 
 # Start docusaurus serve
-CMD ["npm", "run", "serve", "--", "--port", "3344", "--host", "0.0.0.0"]
+CMD ["npm", "run", "serve", "--", "--port", "3344", "--host", "0.0.0.0", "--config", "docusaurus.config.ts"]
