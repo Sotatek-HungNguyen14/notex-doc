@@ -96,7 +96,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'folder/my_folder_page',
         'folder/folder_detail_page',
-        'folder/more_folder_page',
+        'folder/move_to_folder_page',
         'search/search_page',
       ],
     },
