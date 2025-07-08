@@ -4,7 +4,6 @@ sidebar_position: 8
 
 # Referral
 
----
 
 The Referral feature enables users to earn additional credits by inviting friends to join the application and redeeming referral codes from other users. This mutual reward system provides both referrers and new users with bonus credits to access premium AI features and enhance their note-taking experience.
 
