@@ -1,0 +1,52 @@
+# Use Node.js 18 LTS as base image
+FROM node:18-alpine AS base
+
+# Install dependencies and build in a single stage
+WORKDIR /app
+
+# Copy package files
+COPY package*.json yarn.lock* ./
+
+# Install dependencies with production flag to optimize node_modules
+RUN \
+  if [ -f yarn.lock ]; then yarn --frozen-lockfile --production=false; \
+  elif [ -f package-lock.json ]; then npm ci; \
+  else echo "Lockfile not found." && exit 1; \
+  fi
+
+# Copy source files
+COPY . .
+
+# Build the application
+RUN \
+  if [ -f yarn.lock ]; then yarn build; \
+  else npm run build; \
+  fi
+
+# Production image, copy only what's needed and run docusaurus serve
+FROM node:18-alpine AS runner
+
+WORKDIR /app
+
+# Copy package files for production dependencies
+COPY package*.json yarn.lock* ./
+
+# Install only production dependencies
+RUN \
+  if [ -f yarn.lock ]; then yarn --frozen-lockfile --production=true; \
+  elif [ -f package-lock.json ]; then npm ci --only=production; \
+  else echo "Lockfile not found." && exit 1; \
+  fi
+
+# Copy built application
+COPY --from=base /app/build ./build
+
+# Expose port 3344
+EXPOSE 3344
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget -q -O - http://localhost:3344/ || exit 1
+
+# Start docusaurus serve
+CMD ["npm", "run", "serve", "--", "--port", "3344", "--host", "0.0.0.0"]
