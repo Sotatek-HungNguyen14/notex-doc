@@ -4,9 +4,8 @@ sidebar_position: 1
 
 # Change Plan 
 
-## 1. Overview
+---
 
-**Brief Explanation**  
 The Change Plan feature allows users to switch their current subscription plan to better suit their usage needs and desired features. This functionality integrates seamlessly with the platform’s native payment system.
 
 **Key Benefits**
@@ -17,7 +16,8 @@ The Change Plan feature allows users to switch their current subscription plan t
 - **Instant upgrade benefits**: Gain access to enhanced features immediately upon upgrading
 - **Transparent billing**: Clearly display price changes and billing cycles
 
-## 2. UI/UX Specification
+---
+## 1. UI/UX Specification
 
 **Screen Components**
 
@@ -39,7 +39,8 @@ The Change Plan feature allows users to switch their current subscription plan t
 
 Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
 
-## 3. How to Use
+---
+## 2. How to Use
 
 **Step 1: Access Account Settings**
 
@@ -99,7 +100,8 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
   <em>The card has a “Your Plan” badge, which displays the price and expiration date, and indicates your active Pro subscription</em>
 </p>
 
-## 4. Notes & Tips
+---
+## 3. Notes & Tips
 
 **Payment Considerations**
 
@@ -117,35 +119,35 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
 - Valid payment method configured on the device’s app store
 - An active subscription status on your account
 
-## 5. FAQ
+---
+## 4. FAQ
 
 ### General Questions
 
-**Q: Will changing my plan affect my existing data or notes?**  
-**A:** No. All your data, notes, folders, and content remain intact. Only your plan’s features and limits are modified.
-
-**Q: Can I change my plan multiple times?**  
-**A:** Yes. You can switch plans as often as needed, subject to platform billing policies and processing limits.
-
-**Q: Are there any restrictions on which plans I can switch between?**  
-**A:** No. You are free to switch among any available subscription tiers.
-
+### Will changing my plan affect my existing data or notes?**  
+No. All your data, notes, folders, and content remain intact. Only your plan’s features and limits are modified.
+---
+### Can I change my plan multiple times?**  
+Yes. You can switch plans as often as needed, subject to platform billing policies and processing limits.
+---
+### Are there any restrictions on which plans I can switch between?**  
+No. You are free to switch among any available subscription tiers.
+---
 ### Billing & Payment Issues
 
-**Q: Why is my payment declined when changing plans?**  
-**A:** Common causes include:
+### Why is my payment declined when changing plans?**  
+Common causes include:
 
 - Insufficient account balance or card limit
 - Expired payment method information
 - Geographic restrictions on payment processing
 - Platform payment system maintenance  
   **Solution:** Update your payment information in your App Store or Google Play account settings.
-
-**Q: What happens if an upgrade payment fails?**  
-**A:** Your current plan remains active without interruption. After resolving the payment issue, you can retry the plan change without losing features.
-
-**Q: How are mid-cycle plan changes billed?**
-**A:**
+---
+### What happens if an upgrade payment fails?**  
+Your current plan remains active without interruption. After resolving the payment issue, you can retry the plan change without losing features.
+---
+### How are mid-cycle plan changes billed?**
 
 **iOS (App Store Billing):**
 
@@ -162,49 +164,47 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
   * Prorated billing: you pay only the difference for the remaining period.
   * Your billing cycle is then adjusted to align with your original payment date.
   * Premium features become available right away.
-
+---
 ### Technical Issues
 
-**Q: Why is the Change Plan button not showing or disabled?**  
-**A:** Ensure that:
+### Why is the Change Plan button not showing or disabled?**  
+Ensure that:
 
 - You have selected a different plan than your current one
 - Your internet connection is stable
 - You are logged into an account with an active subscription
 - The app is updated to the latest version  
   **Solution:** Restart the app and try again.
-
-**Q: My plan changed successfully but features haven’t updated.**  
-**A:** Synchronization may take 2–3 minutes. Force-close the app, reopen it, wait 5 minutes, and contact support if the issue persists.
-
+---
+### My plan changed successfully but features haven’t updated.**  
+Synchronization may take 2–3 minutes. Force-close the app, reopen it, wait 5 minutes, and contact support if the issue persists.
+---
 ### Access & Navigation Issues
 
-**Q: I can’t find the Account section in Settings.**  
-**A:**
+### I can’t find the Account section in Settings.**  
 
 1. Home Screen → Tap Avatar (top-left) → Settings → Account
 2. Or tap the avatar from any screen header
 3. Ensure you’re logged into a subscription-enabled account
 4. Update the app if the Account section is missing
-
-**Q: The app crashes when I attempt to change plans.**  
-**A:** Possible causes:
+---
+### The app crashes when I attempt to change plans.**  
+Possible causes:
 
 - Insufficient device memory or storage
 - Outdated app version
 - Conflicts with the payment system  
   **Solution:** Update the app, restart your device, and free up storage space.
-
+---
 ### Plan-Specific Questions
 
-**Q: Besides price, what’s the difference between Quarterly and Annual plans?**  
-**A:** They offer identical feature sets. The differences are billing frequency (every 3 months vs. every 12 months) and total annual cost (the annual plan is more economical).
-
-**Q: Does the Lifetime plan include future feature updates?**  
-**A:** Yes. It includes all future premium feature releases and app updates at no additional cost.
-
-**Q: Can I pause my subscription instead of changing plans?**
-**A:**
+### Besides price, what’s the difference between Quarterly and Annual plans?**  
+They offer identical feature sets. The differences are billing frequency (every 3 months vs. every 12 months) and total annual cost (the annual plan is more economical).
+---
+### Does the Lifetime plan include future feature updates?**  
+Yes. It includes all future premium feature releases and app updates at no additional cost.
+---
+### Can I pause my subscription instead of changing plans?**
 
 **On the App Store (iOS):**
 
@@ -217,19 +217,16 @@ Home Screen → Avatar Icon ( Settings ) → Account ( Plan Selection Screen )
 
 1. Open **Play Store** → tap your profile avatar → **Payments & subscriptions** → **Subscriptions**
 2. Select the subscription → tap **Cancel subscription** 
-
+---
 ### Support & Contact
 
-**Q: Who should I contact if I continue experiencing issues?**  
-**A:**
+### Who should I contact if I continue experiencing issues?**  
 
 - **Email:** [hello@notexapp.com](mailto:hello@notexapp.com) (24/7 support)
 - **In-app:** Settings → Contact Support (includes diagnostic information)
 - **Live Chat:** Available during business hours via our support portal
-
-**Q: What information should I provide when reporting plan change issues?**  
-**A:**
-
+---
+### What information should I provide when reporting plan change issues?**  
 - Your current and desired subscription plans
 - Any error messages or screenshots
 - Device model and operating system version

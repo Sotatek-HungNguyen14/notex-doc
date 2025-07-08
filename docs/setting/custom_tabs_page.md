@@ -6,8 +6,6 @@ sidebar_position: 5
 
 ---
 
-## 1. Overview
-
 The **Customize Note Tabs** feature lets you choose which of these learning tabs you want to see inside your notes. This allows you to hide tools you don't need and focus on what's most important for your study style.
 
 By default, every note you create will show all available tabs.
@@ -20,7 +18,27 @@ By default, every note you create will show all available tabs.
 
 ---
 
-## How to Use
+## 1. UI/UX Specification
+
+<p align="center">
+  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/custom_tabs_page.png"/>
+  <br />
+  <em>“Customize Note Tabs” option in Settings</em>
+</p>
+
+| Component              | Type         | Description                                                                 |
+|------------------------|--------------|-----------------------------------------------------------------------------|
+| Profile Avatar         | Button/Icon  | Tap in the top-left corner of the home screen to access Settings.          |
+| Settings Menu          | List/Menu    | Contains navigation items, including "Customize Note Tabs".                |
+| All Tabs Section       | Grid/List    | Shows all possible tabs (active and inactive).                             |
+| Note Tabs Section      | Reorderable List | Displays active tabs in order of appearance.                           |
+| Save Button            | Button       | Saves and applies changes to your tab layout.                              |
+| ‘x’ Icon               | Icon/Button  | Removes a tab from Note Tabs, sending it back to All Tabs.                 |
+| Index Numbers          | Label/Text   | Indicates tab order for easier rearrangement.                              |
+
+---
+
+## 2.How to Use
 
 Follow these steps to personalize the tab layout for all your notes:
 
@@ -82,18 +100,54 @@ The customization screen includes two main sections: **Note Tabs** and **All Tab
 > Changes are not applied until you tap **Save**.
 
 ---
+## 3. Notes & Tips
 
-## 3. Understanding the Layout
+- **Drag to reorder** tabs in the Note Tabs list.
+- **Summary** is fixed and always appears at the top.
+- Your layout is **synced across devices** if logged into the same NoteX account.
+- Hiding a tab does not delete its data — it just hides the UI.
 
-- **Note Tabs:** This is your active layout. Tabs here appear inside your **Note Details** in the listed order.
-- **All Tabs:** This section includes hidden and fixed tabs.
-  - Hidden tabs are dimmed and tappable to re-add.
-  - Tabs already added show their current **display order number**.
+---
+## 4. FAQ
 
 ---
 
-## 4. Why Customize Your Note Tabs?
+### What tabs can I hide?
 
-- **Focus on What Matters:** Hide tabs you don’t use (e.g. Transcript) to reduce clutter.
-- **Create a Personal Workflow:** Keep the tools that matter most—like **Flashcards**—always visible.
-- **Simplify Your View:** A cleaner layout improves focus and helps you find information faster.
+You can hide all tabs **except Summary**. Hidden tabs won’t appear in your Note Details but their data is still saved in the background.
+
+---
+
+### Will changes apply to old notes?
+
+Yes. Your tab layout will apply to **all existing and future notes** after tapping Save.
+
+---
+
+### What if I accidentally remove a tab?
+
+Just tap the tab again in the **All Tabs** section — it will be re-added at the bottom of your Note Tabs list.
+
+---
+
+### Can I reset to default?
+
+Currently, there is no “reset” button. You’ll need to manually re-add the default tabs if you want to restore them.
+
+---
+
+### Does this sync across devices?
+
+Yes — if you're signed in to the same account on all devices, your layout will sync automatically.
+
+---
+
+### What is the Summary tab and why can’t I remove it?
+
+The **Summary** tab is a required core component of NoteX. It is always included in every note and cannot be hidden or moved.
+
+---
+
+### Will hiding a tab delete its data?
+
+No. Hidden tabs simply disappear from the UI. The data is still safely stored and will reappear if you re-enable the tab.

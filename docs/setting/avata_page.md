@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Edit Avatar
 
-## Overview
 
-**Brief Explanation**  
+---
+
 The Edit Avatar feature enables users to customize their profile representation by uploading personal images to replace the default avatar. This functionality enhances user identification and personalizes the application experience through visual profile customization.
 
 **Key Benefits**
@@ -17,7 +17,8 @@ The Edit Avatar feature enables users to customize their profile representation 
 - **Cross-device synchronization**: Maintain consistent visual identity across all logged-in devices
 - **Immediate visual feedback**: Real-time avatar updates upon successful upload
 
-## UI/UX Specification
+---
+## 1. UI/UX Specification
 
 **Screen Components**
 
@@ -42,7 +43,8 @@ Method 1 (Direct): Home → Avatar Icon (Settings) → Camera Icon (on avatar)
 Method 2 (Preview): Home → Avatar Icon (Settings) → Avatar Tap → Change Photo
 ```
 
-## How to Use
+---
+## 2. How to Use
 
 **Step 1: Access Avatar Edit Function**
 
@@ -79,7 +81,8 @@ Method 2 (Preview): Home → Avatar Icon (Settings) → Avatar Tap → Change Ph
 3. Verify the new avatar appears across different app sections
 4. Confirm synchronization across multiple devices if applicable
 
-## Notes & Tips
+---
+## 3. Notes & Tips
 
 **Image Optimization Guidelines**
 
@@ -101,138 +104,140 @@ Method 2 (Preview): Home → Avatar Icon (Settings) → Avatar Tap → Change Ph
 - **Background processing**: Avatar uploads continue when app is backgrounded but may pause if connection is lost
 - **Cache management**: New avatars may take 1-2 minutes to propagate across all app sections
 
-## FAQ
+---
+## 4. FAQ
 
 **Image Requirements & Compatibility**
 
-**Q: What image formats are supported for avatar upload?**  
-A: Supported formats include JPG, JPEG, and PNG. Other formats (GIF, WEBP, HEIC) are not currently supported and will result in upload errors.
-
-**Q: What is the maximum file size allowed for avatar images?**  
-A: The maximum file size limit is 10 MB. Images exceeding this limit will be rejected with an error message prompting you to select a smaller file.
-
-**Q: Why does my square image appear cropped in the avatar circle?**  
-A: The application automatically centers and crops images to fit the circular avatar format. For best results, ensure important visual elements are positioned in the center of your image.
-
-**Q: Can I upload images with transparency backgrounds?**  
-A: Yes, PNG images with transparent backgrounds are supported. Transparent areas will display as white in the circular avatar format.
-
+### What image formats are supported for avatar upload?**  
+Supported formats include JPG, JPEG, and PNG. Other formats (GIF, WEBP, HEIC) are not currently supported and will result in upload errors.
+---
+### What is the maximum file size allowed for avatar images?**  
+The maximum file size limit is 10 MB. Images exceeding this limit will be rejected with an error message prompting you to select a smaller file.
+---
+### Why does my square image appear cropped in the avatar circle?**  
+The application automatically centers and crops images to fit the circular avatar format. For best results, ensure important visual elements are positioned in the center of your image.
+---
+### Can I upload images with transparency backgrounds?**  
+Yes, PNG images with transparent backgrounds are supported. Transparent areas will display as white in the circular avatar format.
+---
 **Upload & Processing Issues**
 
-**Q: Why is my avatar upload failing with "Failed to update avatar" error?**  
-A: Common causes include:
+### Why is my avatar upload failing with "Failed to update avatar" error?**  
+Common causes include:
 
 - Poor or unstable internet connectivity
 - File size exceeding 10 MB limit
 - Unsupported file format (only JPG, JPEG, PNG allowed)
 - Temporary server processing issues
 - **Solution**: Verify connection, check file specifications, and retry after a few minutes
-
-**Q: My avatar appears blurry or low quality after upload.**  
-A: This typically occurs due to:
+---
+### My avatar appears blurry or low quality after upload.**  
+This typically occurs due to:
 
 - Source image being low resolution (below 512×512 pixels)
 - Excessive compression of the original image
 - Non-square aspect ratio causing scaling issues
 - **Solution**: Use higher resolution source images and prefer square-format photos
-
-**Q: The upload is taking an unusually long time.**  
-A: Extended upload times may result from:
+---
+### The upload is taking an unusually long time.**  
+Extended upload times may result from:
 
 - Large file sizes requiring more processing time
 - Slow internet connection or network congestion
 - High server load during peak usage periods
 - **Solution**: Try smaller file sizes, switch to Wi-Fi, or attempt upload during off-peak hours
-
-**Q: My avatar updated but isn't showing in all app sections.**  
-A: Avatar synchronization across app sections may take 1-3 minutes. If issues persist:
+---
+### My avatar updated but isn't showing in all app sections.**  
+Avatar synchronization across app sections may take 1-3 minutes. If issues persist:
 
 1. Force-close and restart the application
 2. Check internet connectivity
 3. Log out and log back in to refresh user data
 4. Contact support if avatar doesn't update after 10 minutes
-
+---
 **Access & Permission Issues**
 
-**Q: The camera icon is not visible on my avatar.**  
-A: Verify the following:
+### The camera icon is not visible on my avatar.**  
+Verify the following:
 
 - You are logged into a valid user account
 - The app has been updated to the latest version
 - Photo library permissions are granted in device settings
 - You are connected to the internet
 - **Solution**: Check app permissions in device settings and restart the application
-
-**Q: I can't access my photo library when trying to change my avatar.**  
-A: This indicates permission restrictions:
+---
+### I can't access my photo library when trying to change my avatar.**  
+This indicates permission restrictions:
 
 1. Go to device Settings → Apps → [App Name] → Permissions
 2. Enable "Photos" or "Media" access
 3. Restart the application and retry avatar change
 4. On iOS: Settings → Privacy & Security → Photos → [App Name] → Select "All Photos"
-
-**Q: The app crashes when I try to select a photo for my avatar.**  
-A: App crashes during photo selection typically indicate:
+---
+### The app crashes when I try to select a photo for my avatar.**  
+App crashes during photo selection typically indicate:
 
 - Insufficient device storage or memory
 - Corrupted photo library database
 - Large image files overwhelming device processing capability
 - **Solution**: Free up device storage, restart device, and try with smaller image files
-
+---
 **Synchronization & Account Issues**
 
-**Q: My avatar is different on different devices.**  
-A: Avatar synchronization requires:
+### My avatar is different on different devices.**  
+Avatar synchronization requires:
 
 - Active internet connection on all devices
 - Same account logged in across devices
 - Latest app version on all devices
 - **Solution**: Log out and log back in on devices showing old avatars
-
-**Q: Can I revert to the default avatar after uploading a custom one?**  
-A: Currently, there is no direct option to revert to the default avatar. You can only replace your current avatar with a different image. Consider saving a screenshot of the default avatar if you wish to return to it later.
-
-**Q: Will my avatar be visible to other users?**  
-A: Avatar visibility depends on app features and sharing settings. In collaborative features, other users may see your avatar. Check privacy settings to understand avatar visibility scope.
-
+---
+### Can I revert to the default avatar after uploading a custom one?**  
+Currently, there is no direct option to revert to the default avatar. You can only replace your current avatar with a different image. Consider saving a screenshot of the default avatar if you wish to return to it later.
+---
+### Will my avatar be visible to other users?**  
+Avatar visibility depends on app features and sharing settings. In collaborative features, other users may see your avatar. Check privacy settings to understand avatar visibility scope.
+---
 **Quality & Display Concerns**
 
-**Q: Why does my avatar look different in the app compared to the original image?**  
-A: The app applies automatic processing including:
+### Why does my avatar look different in the app compared to the original image?**  
+The app applies automatic processing including:
 
 - Compression to reduce file size (80% quality)
 - Circular cropping from center of image
 - Resizing to standardized dimensions (typically 256×256 pixels for display)
 - Color space optimization for consistent display
-
-**Q: Can I edit or crop my image before uploading?**  
-A: The app does not include built-in editing tools. Image cropping and adjustments occur automatically. Use external photo editing apps to prepare images before upload if specific cropping is desired.
-
-**Q: My avatar appears pixelated on high-resolution devices.**  
-A: Upload higher resolution source images (recommended minimum 1024×1024 pixels) to ensure crisp display on all device types and screen densities.
-
+---
+### Can I edit or crop my image before uploading?**  
+The app does not include built-in editing tools. Image cropping and adjustments occur automatically. Use external photo editing apps to prepare images before upload if specific cropping is desired.
+---
+### My avatar appears pixelated on high-resolution devices.**  
+Upload higher resolution source images (recommended minimum 1024×1024 pixels) to ensure crisp display on all device types and screen densities.
+---
 **Technical & Advanced Issues**
 
-**Q: Does changing my avatar affect app performance?**  
-A: Avatar changes have minimal performance impact. Large image uploads may temporarily increase network usage and battery consumption during processing.
-
-**Q: Are there any restrictions on avatar content?**  
-A: While technical restrictions focus on file format and size, ensure avatar images comply with community guidelines and terms of service regarding appropriate content.
-
-**Q: What happens to my old avatar when I upload a new one?**  
-A: Previous avatars are automatically replaced and removed from servers. The app does not maintain a history of previous avatars.
-
+### Does changing my avatar affect app performance?**  
+Avatar changes have minimal performance impact. Large image uploads may temporarily increase network usage and battery consumption during processing.
+---
+### Are there any restrictions on avatar content?**  
+While technical restrictions focus on file format and size, ensure avatar images comply with community guidelines and terms of service regarding appropriate content.
+---
+### What happens to my old avatar when I upload a new one?**  
+Previous avatars are automatically replaced and removed from servers. The app does not maintain a history of previous avatars.
+---
 **Support & Escalation**
 
-**Q: Who should I contact if avatar issues persist?**  
-A: Contact support through:
+### Who should I contact if avatar issues persist?**  
+Contact support through:
 
 - **Email**: hello@notexapp.com (24/7 response within 24 hours)
 - **In-app support**: Settings → Contact Support (includes device and app diagnostics)
 - **Live chat**: Available during business hours for urgent issues
 
-**Q: What information should I provide when reporting avatar upload problems?**  
-A: Include:
+---
+### What information should I provide when reporting avatar upload problems?**  
+Include:
 
 - Device model and operating system version
 - App version number

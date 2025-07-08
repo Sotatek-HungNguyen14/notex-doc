@@ -4,9 +4,8 @@ sidebar_position: 7
 
 # Manage Recordings 
 
-## Overview
-
-**Brief Explanation**  
+---
+ 
 The Manage Recordings feature provides comprehensive management capabilities for local audio recordings stored on your device. This functionality enables users to preview, organize, and manipulate saved audio files with integrated playback controls and processing options.
 
 **Key Benefits**
@@ -18,7 +17,8 @@ The Manage Recordings feature provides comprehensive management capabilities for
 - **Storage optimization**: Remove unnecessary recordings to free up device storage space
 - **Failed upload recovery**: Retry processing for recordings that failed to upload or process initially
 
-## UI/UX Specification
+---
+## 1. UI/UX Specification
 
 **Screen Components**
 
@@ -42,7 +42,8 @@ The Manage Recordings feature provides comprehensive management capabilities for
 Home Screen → Avatar Icon (Settings) → Manage Recordings
 ```
 
-## How to Use
+---
+## 2. How to Use
 
 **Step 1: Access Manage Recordings**
 
@@ -97,7 +98,9 @@ Home Screen → Avatar Icon (Settings) → Manage Recordings
 3. Select **Regenerate** to retry note creation or return to the original note
 4. Use alternative options like sharing or deletion as needed
 
-## Notes & Tips
+
+---
+## 3. Notes & Tips
 
 **Storage Management**
 
@@ -113,38 +116,43 @@ Home Screen → Avatar Icon (Settings) → Manage Recordings
 - **Background behavior**: Audio stops when navigating away from the Manage Recordings screen
 - **Quality settings**: All recordings use standard AAC format with optimized compression
 
-## FAQ
+
+---
+## 4. FAQ
 
 **Access & Navigation Issues**
 
-**Q: I can't find the Manage Recordings option in Settings.**  
-A: Ensure you're navigating correctly:
+### I can't find the Manage Recordings option in Settings.**  
+Ensure you're navigating correctly:
 
 1. Home screen → Avatar (top-left) ( Settings ) → Manage Recordings
 2. Verify you're using the latest app version
 3. Check that you have previously created recordings through the app
 4. Restart the app if the option doesn't appear
 
-**Q: The Manage Recordings screen is empty but I know I have recordings.**  
-A: This can occur due to:
+---
+### The Manage Recordings screen is empty but I know I have recordings.**  
+This can occur due to:
 
 - Recordings stored in different app directories
 - File system permissions preventing access
 - Corrupted recording files not recognized by the system
 - **Solution**: Try creating a new test recording to verify the feature is working, then restart the app
 
-**Q: The app crashes when I open Manage Recordings.**  
-A: Common causes include:
+---
+### The app crashes when I open Manage Recordings.**  
+Common causes include:
 
 - Insufficient device storage or memory
 - Corrupted recording files in the directory
 - App requiring update for compatibility
 - **Solution**: Free up device storage, update the app, and restart your device
 
+---
 **Playback & Audio Issues**
 
-**Q: Recordings won't play when I tap on them.**  
-A: Verify these potential issues:
+### Recordings won't play when I tap on them.**  
+Verify these potential issues:
 
 - **File corruption**: The recording file may be damaged or incomplete
 - **Audio permissions**: Ensure the app has audio playback permissions
@@ -152,33 +160,37 @@ A: Verify these potential issues:
 - **Background apps**: Close other audio apps that might interfere with playback
 - **Solution**: Try playing different recordings to isolate the issue
 
-**Q: Audio playback stops unexpectedly during recordings.**  
-A: Interruptions can be caused by:
+---
+### Audio playback stops unexpectedly during recordings.**  
+Interruptions can be caused by:
 
 - Incoming phone calls or notifications
 - Other apps requesting audio focus
 - Device power management settings
 - **Solution**: Ensure Do Not Disturb mode during important playback sessions
 
-**Q: The progress slider doesn't work or jumps erratically.**  
-A: Slider issues typically indicate:
+---
+### The progress slider doesn't work or jumps erratically.**  
+Slider issues typically indicate:
 
 - Recording file corruption or encoding problems
 - App performance issues due to low memory
 - Incomplete recording files from interrupted recording sessions
 - **Solution**: Try restarting the app and test with different recordings
 
-**Q: I can hear audio but the time indicators show incorrect durations.**  
-A: Duration calculation problems may result from:
+---
+### I can hear audio but the time indicators show incorrect durations.**  
+Duration calculation problems may result from:
 
 - Recordings with variable bitrates or corrupted metadata
 - Files created with different recording applications
 - **Solution**: Duration discrepancies don't affect playback quality; metadata may simply be inaccurate
 
+---
 **File Management & Actions**
 
-**Q: The "Regenerate" option doesn't work for my recordings.**  
-A: Regeneration failures can occur due to:
+### The "Regenerate" option doesn't work for my recordings.**  
+Regeneration failures can occur due to:
 
 - **Insufficient credits**: Check your available AI processing credits
 - **Poor connectivity**: Ensure stable internet connection for cloud processing
@@ -186,108 +198,121 @@ A: Regeneration failures can occur due to:
 - **Server maintenance**: Temporary service interruptions affecting AI processing
 - **Solution**: Verify credits and connectivity, then retry after a few minutes
 
-**Q: Sharing recordings doesn't work with certain apps.**  
-A: Sharing compatibility depends on:
+---
+### Sharing recordings doesn't work with certain apps.**  
+Sharing compatibility depends on:
 
 - Target app's supported file formats (not all apps accept .m4a files)
 - File size limitations of receiving applications
 - Device sharing permissions and restrictions
 - **Solution**: Try sharing with different apps or convert audio format if needed
 
-**Q: Deleted recordings still appear in the list.**  
-A: Persistent recordings after deletion suggest:
+---
+### Deleted recordings still appear in the list.**  
+Persistent recordings after deletion suggest:
 
 - App cache not properly updated
 - File system delays in removing files
 - **Solution**: Pull down to refresh the list or restart the app to update the display
 
-**Q: I accidentally deleted an important recording. Can I recover it?**  
-A: Recovery options are limited:
+---
+### I accidentally deleted an important recording. Can I recover it?**  
+Recovery options are limited:
 
 - **Local backups**: Check if you have device backups that include app data
 - **Cloud storage**: If the recording was previously processed into a note, the note may still exist
 - **No built-in recovery**: The app doesn't maintain deleted file recovery systems
 - **Prevention**: Consider sharing important recordings to external storage before deletion
 
+---
 **Failed Recordings & Processing**
 
-**Q: What does the red indicator on some recordings mean?**  
-A: Red indicators identify recordings with failed processing:
+### What does the red indicator on some recordings mean?**  
+Red indicators identify recordings with failed processing:
 
 - Upload to server failed due to connectivity issues
 - AI processing encountered errors during transcription
 - Insufficient credits when attempting to create notes
 - File corruption preventing successful processing
 
-**Q: How do I fix recordings that show as failed?**  
-A: Failed recording recovery options:
+---
+### How do I fix recordings that show as failed?**  
+Failed recording recovery options:
 
 1. Tap the three-dot menu and select "Regenerate"
 2. Ensure stable internet connectivity before retrying
 3. Verify sufficient AI processing credits in your account
 4. If regeneration fails repeatedly, try sharing the file instead
 
-**Q: Can I prevent recordings from failing in the future?**  
-A: Minimize processing failures by:
+---
+### Can I prevent recordings from failing in the future?**  
+Minimize processing failures by:
 
 - Maintaining stable internet connectivity during recording and processing
 - Monitoring available AI credits before creating new recordings
 - Avoiding interruption of the upload and processing workflow
 - Recording in quiet environments to improve AI transcription accuracy
 
+---
 **Storage & Performance**
 
-**Q: How much storage space do recordings typically use?**  
-A: Storage consumption varies by:
+### How much storage space do recordings typically use?**  
+Storage consumption varies by:
 
 - Recording length (approximately 1MB per minute of audio)
 - Quality settings (app uses optimized compression)
 - File format efficiency (M4A provides good compression)
 - **Management**: Regularly delete unnecessary recordings to maintain available storage
 
-**Q: Do recordings sync across multiple devices?**  
-A: Local recordings are device-specific:
+---
+### Do recordings sync across multiple devices?**  
+Local recordings are device-specific:
 
 - Recordings don't automatically sync between devices
 - Cloud processing creates notes that sync across devices
 - **Cross-device access**: Use the regenerate function to create synced notes from recordings
 
-**Q: What happens to recordings when I reinstall the app?**  
-A: App reinstallation affects local recordings:
+---
+### What happens to recordings when I reinstall the app?**  
+App reinstallation affects local recordings:
 
 - All local recordings are permanently deleted during app removal
 - Cloud-processed notes remain accessible after reinstalling
 - **Backup strategy**: Share important recordings to external storage before reinstalling
 
+---
 **Technical & Advanced Issues**
 
-**Q: Can I change the audio format or quality of recordings?**  
-A: Audio format specifications:
+### Can I change the audio format or quality of recordings?**  
+Audio format specifications:
 
 - All recordings use M4A format with AAC compression
 - Quality settings are optimized for balance between file size and clarity
 - Format cannot be changed within the app
 - **External conversion**: Use third-party apps for format conversion if needed
 
-**Q: Why do some recordings have different file sizes despite similar lengths?**  
-A: File size variations result from:
+---
+### Why do some recordings have different file sizes despite similar lengths?**  
+File size variations result from:
 
 - Recording environment noise levels (more noise = larger files)
 - Audio complexity and dynamic range
 - Compression efficiency variations
 - **Normal behavior**: File size differences are expected and don't indicate problems
 
+---
 **Support & Escalation**
 
-**Q: Who should I contact if Manage Recordings issues persist?**  
-A: Contact support through:
+### Who should I contact if Manage Recordings issues persist?**  
+Contact support through:
 
 - **Email**: hello@notexapp.com (24/7 response within 24 hours)
 - **In-app support**: Settings → Contact Support (includes automatic diagnostic information)
 - **Live chat**: Available during business hours for technical recording issues
 
-**Q: What information should I provide when reporting Manage Recordings problems?**  
-A: Include:
+---
+### What information should I provide when reporting Manage Recordings problems?**  
+Include:
 
 - Device model and operating system version
 - App version number and last update date

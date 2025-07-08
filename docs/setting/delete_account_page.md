@@ -4,11 +4,39 @@ sidebar_position: 9
 
 # Logout or Delete Account
 
-## 1. Overview
+---
 
 The **Logout** feature allows you to safely sign out of your current account on the NoteX app, while **Delete Account** lets you permanently remove your account and all related data from the system.
 
 > Suitable when you want to secure your account or stop using the app.
+
+---
+
+## Benefits
+
+- Secure your account when switching devices
+- Ensure privacy if sharing your device
+- Permanently remove your data if you no longer wish to use the app
+- Easy access through in-app account options
+
+---
+
+## 1. UI/UX Specification
+
+<p align="center">
+  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/account_menu_options.png"/>
+  <br />
+  <em>Tap your account info in Settings</em>
+</p>
+
+| Component                | Type        | Description                                                             |
+|--------------------------|-------------|-------------------------------------------------------------------------|
+| Avatar in Home Screen    | Button/Icon | Tap to open Settings menu                                               |
+| Account Section (Top)    | Button      | Shows your name and email – tap to view account options                 |
+| Three-Dot Menu           | Icon/Button | Located at the top right of Account screen                              |
+| Logout Option            | Menu Item   | Tap to log out from the app                                             |
+| Delete Account Option    | Menu Item   | Tap to delete your account and all associated data                      |
+| Confirmation Dialog      | Modal       | Asks for final confirmation before logging out or deleting the account  |
 
 ---
 
@@ -64,7 +92,7 @@ A confirmation dialog will appear:
 
 ---
 
-## 4. Notes
+## 4. Notes & Tips
 
 - **Deleted data cannot be recovered.**
 - Make sure to back up important content if necessary.
@@ -74,3 +102,41 @@ A confirmation dialog will appear:
 
 **You can always log back in if you only choose Log Out.**  
 With Delete Account, this action is irreversible.
+
+## 5. FAQ
+
+---
+
+### Will logging out delete my data?
+
+No. Logging out **only signs you out temporarily**. Your notes and data remain saved and linked to your account.
+
+---
+
+### Can I undo Delete Account?
+
+No. Once confirmed, **deletion is permanent**. Your notes, recordings, and user data will be erased from our servers.
+
+---
+
+### Can I delete my account from the web?
+
+Currently, account deletion is only available **within the mobile app**.
+
+---
+
+### I accidentally deleted my account — can I recover it?
+
+Unfortunately, no. **Data recovery is not possible** after deletion. This action is irreversible by design for privacy compliance.
+
+---
+
+### What if I see an error when trying to log out or delete?
+
+Please check:
+
+- You are **connected to the internet**
+- You are using the **latest version** of the app
+
+If the issue persists, contact:  
+**Email:** hello@notexapp.com

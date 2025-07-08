@@ -4,9 +4,8 @@ sidebar_position: 8
 
 # Referral
 
-## Overview
+---
 
-**Brief Explanation**  
 The Referral feature enables users to earn additional credits by inviting friends to join the application and redeeming referral codes from other users. This mutual reward system provides both referrers and new users with bonus credits to access premium AI features and enhance their note-taking experience.
 
 **Key Benefits**
@@ -18,7 +17,8 @@ The Referral feature enables users to earn additional credits by inviting friend
 - **Usage tracking**: Comprehensive overview of earned, used, and available credits
 - **Lifetime opportunity**: Potential entry into monthly contests for lifetime premium access
 
-## UI/UX Specification
+---
+## 1. UI/UX Specification
 
 **Screen Components**
 
@@ -42,8 +42,8 @@ The Referral feature enables users to earn additional credits by inviting friend
 ```
 Home Screen → Avatar Icon ( Settings ) → Refer & Rewards Section
 ```
-
-## How to Use
+---
+## 2. How to Use
 
 **Step 1: Access Referral Features**
 
@@ -88,7 +88,8 @@ Home Screen → Avatar Icon ( Settings ) → Refer & Rewards Section
 3. Plan referral activities based on usage patterns and available credits
 4. Use the "Refer Now" button for quick access to sharing options
 
-## Notes & Tips
+---
+## 3. Notes & Tips
 
 **Referral Code Requirements**
 
@@ -117,186 +118,187 @@ Home Screen → Avatar Icon ( Settings ) → Refer & Rewards Section
 - **Pro user visibility**: Referral section only appears for non-Pro users to encourage upgrades
 - **Bonus limitations**: Credits are awarded only for new users, not existing accounts
 
-## FAQ
+---
+## 4. FAQ
 
 **Getting Started & Access**
 
-**Q: I can't find the Refer & Rewards section in my Settings.**  
-A: The Refer & Rewards section is only visible to non-Pro users. If you have an active Pro subscription:
+### I can't find the Refer & Rewards section in my Settings.**  
+The Refer & Rewards section is only visible to non-Pro users. If you have an active Pro subscription:
 
 - The referral features are hidden to focus on premium features
 - Consider sharing your experience with friends even without earning additional credits
 - Referral functionality may return if your Pro subscription expires
-
-**Q: Where can I find my referral code?**  
-A: Your referral code is available in multiple locations:
+---
+### Where can I find my referral code?**  
+Your referral code is available in multiple locations:
 
 1. **Main referral page**: Settings → Refer & Rewards → Referral
 2. **Referral dialogs**: Automatic popups may display your code during certain actions
 3. **Account synchronization**: Your code is permanent and synced across all devices
-
-**Q: My referral code isn't showing up.**  
-A: Code display issues typically indicate:
+---
+### My referral code isn't showing up.**  
+Code display issues typically indicate:
 
 - **Poor connectivity**: Ensure stable internet connection for code retrieval
 - **Account sync problems**: Try logging out and back in to refresh account data
 - **App version issues**: Update to the latest app version for proper functionality
 - **Solution**: Restart the app and check internet connectivity before trying again
-
+---
 **Sharing & Code Management**
 
-**Q: How do I share my referral code effectively?**  
-A: Optimize your sharing strategy:
+### How do I share my referral code effectively?**  
+Optimize your sharing strategy:
 
 - **Use the built-in sharing**: Tap "Refer Now" for pre-formatted messages with your code
 - **Personal networks**: Start with close friends and family who trust your recommendations
 - **Multiple platforms**: Share across email, social media, and messaging apps
 - **Add context**: Explain how the app has helped you to encourage sign-ups
-
-**Q: Can I customize the referral message when sharing?**  
-A: The app provides a pre-formatted message that includes:
+---
+### Can I customize the referral message when sharing?**  
+The app provides a pre-formatted message that includes:
 
 - Engaging introduction about the app's productivity benefits
 - Your unique referral code
 - App download link
 - You can add personal touches before sending through your chosen platform
-
-**Q: What happens if someone uses my referral code multiple times?**  
-A: Referral codes are designed for single use per person:
+---
+### What happens if someone uses my referral code multiple times?**  
+Referral codes are designed for single use per person:
 
 - Each new user can only use one referral code during registration
 - Multiple attempts by the same user won't generate additional credits
 - The system prevents abuse through account verification
-
+---
 **Code Redemption & Validation**
 
-**Q: Why does my referral code entry show "Invalid code" error?**  
-A: Code validation requires specific formatting:
+### Why does my referral code entry show "Invalid code" error?**  
+Code validation requires specific formatting:
 
 - **Length requirement**: Exactly 8 characters (no more, no less)
 - **Character restrictions**: Only uppercase letters A-Z and numbers 0-9
 - **No special characters**: Spaces, punctuation, or symbols cause validation failure
 - **Solution**: Double-check the code format and try re-entering carefully
-
-**Q: I entered a valid code but didn't receive credits.**  
-A: Credit delivery issues can occur due to:
+---
+### I entered a valid code but didn't receive credits.**  
+Credit delivery issues can occur due to:
 
 - **Already used code**: Each code can only be redeemed once per account
 - **Self-referral attempt**: Cannot use your own referral code
 - **Expired code**: Some codes may have time limitations (24-hour expiry)
 - **Server processing delays**: Credits may take a few minutes to appear
 - **Solution**: Wait 5 minutes and refresh the credit display
-
-**Q: Can I use multiple referral codes to get more credits?**  
-A: Referral code usage is limited:
+---
+### Can I use multiple referral codes to get more credits?**  
+Referral code usage is limited:
 
 - Each user account can only redeem one referral code
 - Additional code entries will be rejected by the system
 - Focus on sharing your own code to earn ongoing credits
-
-**Q: What does "Referral code has expired after 24 hours" mean?**  
-A: Some referral codes have time-sensitive validity:
+---
+### What does "Referral code has expired after 24 hours" mean?**  
+Some referral codes have time-sensitive validity:
 
 - Codes must be used within 24 hours of being shared in certain contexts
 - Standard referral codes from the main page typically don't expire
 - **Solution**: Ask for a fresh code from the referrer or use codes immediately upon receiving
-
+---
 **Credit System & Tracking**
 
-**Q: How many credits do I earn per successful referral?**  
-A: Credit amounts vary but typically:
+### How many credits do I earn per successful referral?**  
+Credit amounts vary but typically:
 
 - Both referrer and referred user receive equal bonus credits
 - The exact amount is displayed in your referral information
 - Credit amounts may change based on promotional periods
 - Check the "Credits Earned" section for current reward amounts
-
-**Q: Why don't my credit numbers match between "earned" and "available"?**  
-A: Credit discrepancies are normal:
+---
+### Why don't my credit numbers match between "earned" and "available"?**  
+Credit discrepancies are normal:
 
 - **Credits Earned**: Total accumulated through all referrals
 - **Credits Used**: Amount spent on AI note generation and features
 - **Available Credits**: Remaining balance (Earned minus Used)
 - The bottom sheet provides detailed breakdown of all transactions
-
-**Q: Do my referral credits expire?**  
-A: Credit expiration policies:
+---
+### Do my referral credits expire?**  
+Credit expiration policies:
 
 - Referral credits typically do not expire
 - Credits remain available for future use regardless of account activity
 - Pro subscription status doesn't affect existing credit balance
 - Credits can be used even after subscription changes
-
-**Q: Can I convert referral credits to cash or other rewards?**  
-A: Referral credits are app-specific:
+---
+### Can I convert referral credits to cash or other rewards?**  
+Referral credits are app-specific:
 
 - Credits can only be used within the app for AI features
 - No cash conversion or external reward redemption available
 - Credits provide access to premium AI note generation capabilities
-
+---
 **Technical Issues & Troubleshooting**
 
-**Q: The referral sharing feature isn't working on my device.**  
-A: Sharing functionality depends on device capabilities:
+### The referral sharing feature isn't working on my device.**  
+Sharing functionality depends on device capabilities:
 
 - **iOS**: Ensure sharing permissions are enabled for the app
 - **Android**: Check that default apps are properly configured for sharing
 - **Network issues**: Verify internet connectivity during sharing attempts
 - **Solution**: Try sharing through different apps or restart the device
-
-**Q: My referral statistics aren't updating.**  
-A: Data synchronization issues may cause delays:
+---
+### My referral statistics aren't updating.**  
+Data synchronization issues may cause delays:
 
 - **Manual refresh**: Pull down on the credit screen to force update
 - **Network dependency**: Ensure stable internet connection for data sync
 - **Server delays**: Statistics may take up to 5 minutes to reflect changes
 - **Solution**: Wait a few minutes and try refreshing again
-
-**Q: The app crashes when I try to access referral features.**  
-A: Crashes typically indicate:
+---
+### The app crashes when I try to access referral features.**  
+Crashes typically indicate:
 
 - **Insufficient memory**: Close other apps to free up device resources
 - **Outdated app version**: Update to the latest version for stability improvements
 - **Corrupted data**: Try logging out and back in to refresh account data
 - **Solution**: Restart device and ensure adequate storage space
-
+---
 **Policy & Limitations**
 
-**Q: Are there limits to how many people I can refer?**  
-A: Referral limitations:
+### Are there limits to how many people I can refer?**  
+Referral limitations:
 
 - **No upper limit**: You can refer unlimited friends and family
 - **Quality focus**: System prevents abuse through validation mechanisms
 - **Genuine referrals**: Encouraged to share with people who will actively use the app
 - **Contest entries**: Each referral provides additional entries for monthly contests
-
-**Q: What happens to my referral credits if I upgrade to Pro?**  
-A: Pro subscription effects on referrals:
+---
+### What happens to my referral credits if I upgrade to Pro?**  
+Pro subscription effects on referrals:
 
 - **Existing credits**: Remain available and usable regardless of subscription status
 - **Referral interface**: May be hidden during active Pro subscription
 - **Credit usage**: Can still use accumulated credits for applicable features
 - **Future referrals**: Referral earning may be restricted during Pro periods
-
-**Q: Can I refer someone who previously had the app?**  
-A: Referral eligibility requirements:
+---
+### Can I refer someone who previously had the app?**  
+Referral eligibility requirements:
 
 - Codes are typically for new users only
 - Users who previously deleted and reinstall may not be eligible
 - System tracks account history to prevent duplicate rewards
 - **Focus**: Target friends who haven't used the app before
-
+---
 **Support & Advanced Issues**
 
-**Q: Who should I contact if referral features aren't working properly?**  
-A: Contact support through:
+### Who should I contact if referral features aren't working properly?**  
+Contact support through:
 
 - **Email**: hello@notexapp.com (24/7 response within 24 hours)
 - **In-app support**: Settings → Contact Support (includes automatic diagnostic information)
 - **Live chat**: Available during business hours for urgent referral issues
-
-**Q: What information should I provide when reporting referral problems?**  
-A: Include:
+---
+### What information should I provide when reporting referral problems?**  
+Include:
 
 - Your unique referral code
 - Specific error messages or screenshots
