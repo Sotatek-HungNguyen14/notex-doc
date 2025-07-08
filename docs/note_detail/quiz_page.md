@@ -4,20 +4,18 @@ sidebar_position: 7
 
 # Quiz
 
-## 1. Overview
+After processing your note content, **NoteX** automatically generates **Quiz** sets to help you review your understanding and retention.  
+Quizzes are usually in the form of **multiple-choice** or **true/false** questions, based on your original note content. This allows you to practice recalling information and self-assess your learning progress.
 
-Sau khi xử lý nội dung ghi chú, **NoteX** sẽ tự động tạo các bộ **Quiz** (trắc nghiệm) giúp bạn kiểm tra lại mức độ hiểu và ghi nhớ.
-Các quiz thường là câu hỏi **trắc nghiệm nhiều lựa chọn** (multiple choice) hoặc **đúng/sai** (true/false), được sinh từ nội dung gốc, giúp bạn luyện tập khả năng truy xuất thông tin và tự đánh giá hiệu quả học tập.
+**Key Benefits:**
 
-**Lợi ích nổi bật:**
-
-- Tự động chuyển kiến thức thành quiz để kiểm tra bản thân.
-- Đa dạng dạng câu hỏi: trắc nghiệm, đúng/sai.
-- Có thể cá nhân hóa số lượng, độ khó và chủ đề câu hỏi.
+- Automatically turns knowledge into quizzes for self-testing.
+- Supports multiple question types: multiple choice, true/false.
+- Fully customizable: number of questions, difficulty level, and topic.
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/quiz_create_set.jpg"/>
@@ -33,59 +31,70 @@ Các quiz thường là câu hỏi **trắc nghiệm nhiều lựa chọn** (mul
 
 ---
 
-## 3. How to use (Step by step)
+## 2. How to Use
 
-### Tạo một bộ Quiz
+### Create a Quiz Set
 
-1. Trong **Note Detail**, mở tab **Quizzes**.
-2. Nhấn **Create Quizzes**.
-3. Một **Bottom Sheet** sẽ hiện ra (chế độ mặc định: **Advanced ON**).
-4. Bạn có thể nhập:
-
-- Số lượng quiz muốn tạo.
-- Độ khó của quiz.
-- Chủ đề (không bắt buộc).
-
-5. Nhấn **Create Quizzes** trong bottom sheet.
-6. Đợi AI xử lý và tạo xong bộ quiz.
-
-### Tạo thêm nhiều bộ Quiz
-
-1. Trong **Note Detail**, nhấn biểu tượng **Add More** ở **App Bar** để mở màn hình **Quiz Sets**.
-2. Nhấn **Create Quizzes**.
-3. Một **Bottom Sheet** sẽ hiện ra (chế độ mặc định: **Advanced ON**).
-4. Bạn có thể nhập:
-
-- Số lượng quiz muốn tạo.
-- Độ khó của quiz.
-- Chủ đề (không bắt buộc).
-
-5. Nhấn **Create Quizzes** trong bottom sheet.
-6. Đợi AI xử lý và tạo xong bộ quiz.
+1. In **Note Detail**, open the **Quizzes** tab.
+2. Tap **Create Quizzes**.
+3. A **Bottom Sheet** will appear (default mode: **Advanced ON**).
+4. You can enter:
+   - Number of quizzes to generate
+   - Difficulty level
+   - Topic (optional)
+5. Tap **Create Quizzes** in the bottom sheet.
+6. Wait for the AI to generate the quiz set.
 
 ---
 
-## 4. Notes / Tips & Tricks
+### Create Additional Quiz Sets
 
-- Có thể tạo nhiều bộ quiz khác nhau cho cùng một ghi chú để luyện tập nhiều lần với góc nhìn khác nhau.
-- Nên thử các mức độ khó khác nhau để luyện khả năng phản xạ, tư duy sâu hơn.
-- Có thể chỉnh sửa lại nội dung từng câu hỏi/đáp án sau khi hệ thống sinh tự động nếu muốn cá nhân hóa.
+1. In **Note Detail**, tap the **Add More** icon in the **App Bar** to open the **Quiz Sets** screen.
+2. Tap **Create Quizzes**.
+3. A **Bottom Sheet** will appear (default mode: **Advanced ON**).
+4. You can enter:
+   - Number of quizzes to generate
+   - Difficulty level
+   - Topic (optional)
+5. Tap **Create Quizzes** in the bottom sheet.
+6. Wait for the AI to complete the process.
 
 ---
 
-## 5. FAQ
+## 3. Notes & Tips
 
-**Q: Có thể tạo nhiều bộ quiz cho một ghi chú không?**
-A: Có, NoteX hỗ trợ tạo nhiều bộ quiz riêng biệt cho mỗi note.
+- You can generate multiple quiz sets from the same note for varied practice.
+- Try different difficulty levels to train for deeper thinking and better recall.
+- After generation, you can manually edit quiz questions and answers to personalize them.
 
-**Q: Độ khó của quiz ảnh hưởng như thế nào?**
-A: Độ khó quyết định độ phức tạp của câu hỏi – từ kiểm tra kiến thức cơ bản đến nâng cao, vận dụng.
+---
 
-**Q: Có thể chỉnh sửa lại nội dung quiz đã tạo không?**
-A: Có, bạn hoàn toàn có thể sửa lại câu hỏi và đáp án sau khi quiz được sinh tự động.
+## 4. FAQ
 
-**Q: Quiz bao gồm những dạng câu hỏi nào?**
-A: Chủ yếu là câu hỏi trắc nghiệm nhiều lựa chọn (multiple choice) hoặc đúng/sai (true/false).
+### Can I create multiple quiz sets for a single note?
 
-**Q: Có thể chia sẻ quiz với người khác không?**
-A: Có, bạn có thể chia sẻ các bộ quiz với bạn bè, nhóm học tập qua các tính năng share của NoteX.
+Yes, NoteX supports generating multiple quiz sets per note.
+
+---
+
+### How does the difficulty level affect the quiz?
+
+Difficulty level determines how complex the questions are—from basic recall to advanced application.
+
+---
+
+### Can I edit the quizzes after they're created?
+
+Yes, you can fully edit both questions and answers after generation.
+
+---
+
+### What question formats are supported in quizzes?
+
+Mainly multiple-choice and true/false questions.
+
+---
+
+### Can I share the quizzes with others?
+
+Yes, you can share quiz sets easily with friends or study groups via NoteX’s sharing features.

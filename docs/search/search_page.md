@@ -2,13 +2,14 @@
 sidebar_position: 1
 ---
 
-# Search – User Guide
+# Search 
 
 ---
 
-## Overview
 
 The **Search** feature allows users to **quickly locate notes** by entering keywords, titles, tags, or content types (YouTube, Audio, Document, etc.). It is designed for **real-time, efficient searching**, even with large libraries.
+
+---
 
 ### Key Benefits
 
@@ -19,7 +20,26 @@ The **Search** feature allows users to **quickly locate notes** by entering keyw
 
 ---
 
-## How to Use
+## 1. UI/UX Specification
+
+| Component                | Type           | Description                                                                 |
+|--------------------------|----------------|-----------------------------------------------------------------------------|
+| Search Icon              | Button/Icon    | Located at the top-right corner of the Home screen.                         |
+| Search Bar               | Input Field    | Where users type queries (label: `Search in Files`).                        |
+| Filter Chips             | Button Group   | Quick filters like YouTube, Document, Audio, etc. to prioritize result types.|
+| Search Results List      | Auto-Updated List | Dynamically shows matching notes as user types.                         |
+| Cancel Button            | Button         | Located at top-right of the search view; exits search mode.                |
+| Empty State Message      | Text           | Appears if no matches are found: “No results found.”                        |
+
+<p align="center">
+  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/search_suggested.png"/>
+  <br />
+  <em>Tap the search icon on the Home screen to start searching</em>
+</p>
+
+---
+
+## 2. How to Use
 
 ### Step 1: Open Search
 
@@ -81,7 +101,7 @@ In the search bar labeled `Search in Files`, begin typing your query. The system
 </p>
 ---
 
-## Tips & Notes
+## 3. Tips & Notes
 
 - **Partial search supported**: You can search with incomplete words.
 - **Case-insensitive**: No need to match capitalization.
@@ -90,19 +110,76 @@ In the search bar labeled `Search in Files`, begin typing your query. The system
 
 ---
 
-## FAQ
+## 4. FAQ
 
-| Question                                                              | Answer                                                                                                       |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Q1. Why do I get no results when searching?**                       | Check for typos, try partial matches (e.g., type `"Fut"` instead of `"Future"`), and ensure the note exists. |
-| **Q2. Can I search by content type or tag?**                          | Yes. Use filter chips or enter keywords like `"Audio"` or `"Document"` in the search bar.                    |
-| **Q3. Does it search inside transcripts or note content?**            | Yes. The search checks both the title and the content of each note, including transcripts.                   |
-| **Q4. Can I use voice input to search?**                              | No. Currently, only typed input is supported.                                                                |
-| **Q5. Is the search case-sensitive?**                                 | No. Searches are not case-sensitive. You may use any capitalization.                                         |
-| **Q6. Are results sorted by date or relevance?**                      | Results are sorted by **relevance and recency**. Filtered results may appear at the top.                     |
-| **Q7. Can I search within a specific folder or notebook only?**       | No. Search applies globally across all saved notes.                                                          |
-| **Q8. Why do unrelated results appear even after applying a filter?** | Filters act as **priority hints**, not strict constraints. Additional relevant results may still be shown.   |
+### Why do I get no results when searching?  
+Search troubleshooting tips:
 
+- Check for typos in your search query
+- Try partial matches (e.g., type "Fut" instead of "Future")
+- Ensure the note exists in your saved notes
+- Use broader keywords to increase result chances
 ---
 
-_Use the Search feature to save time and access important notes instantly without scrolling or browsing manually._
+### Can I search by content type or tag?  
+Search filtering options:
+
+- Use filter chips to narrow down results
+- Enter keywords like "Audio" or "Document" in the search bar
+- Tags and content types are searchable for quick access
+- Combine keywords for more specific results
+---
+
+### Does it search inside transcripts or note content?  
+Search scope details:
+
+- Searches include both note titles and content
+- Transcripts of audio notes are fully searchable
+- All text within notes is indexed for search
+- No separate transcript-only search is required
+---
+
+### Can I use voice input to search?  
+Voice input support:
+
+- Currently, only typed input is supported
+- Voice input is not available for search
+- Use keyboard or on-screen input for queries
+- Future updates may include voice search
+---
+
+### Is the search case-sensitive?  
+Case sensitivity in searches:
+
+- Searches are not case-sensitive
+- Use any capitalization for queries
+- Results remain consistent regardless of case
+- No need to match exact capitalization
+---
+
+### Are results sorted by date or relevance?  
+Search result sorting:
+
+- Results are sorted by relevance and recency
+- Filtered results may appear prioritized at the top
+- Most relevant matches are ranked higher
+- Recent notes may also influence ranking
+---
+
+### Can I search within a specific folder or notebook only?  
+Search scope limitations:
+
+- Search applies globally across all saved notes
+- No option to limit search to specific folders
+- All notes are included in search results
+- Use tags or keywords to narrow focus
+---
+
+### Why do unrelated results appear even after applying a filter?  
+Filter behavior explained:
+
+- Filters act as priority hints, not strict constraints
+- Additional relevant results may still appear
+- Filters prioritize but don’t exclude other matches
+- Refine keywords for more precise results
+---

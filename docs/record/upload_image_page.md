@@ -4,10 +4,6 @@ sidebar_position: 6
 
 # Upload Image
 
----
-
-## 1. Overview
-
 The **Upload Image** feature allows users to upload images containing written content such as whiteboards, slides, handwritten notes, or document screenshots. The system will automatically recognize text in the images using OCR, then summarize, extract, and generate intelligent notes using AI.
 
 ### Key Benefits:
@@ -20,7 +16,7 @@ The **Upload Image** feature allows users to upload images containing written co
 
 ---
 
-## 2. User Interface Specification (UI/UX)
+## 1. UI/UX Specification
 
 <p align="center">
  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_upload_image.png"/>
@@ -45,7 +41,7 @@ The **Upload Image** feature allows users to upload images containing written co
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open Upload Image
 
@@ -83,18 +79,7 @@ Tap **Add to Note** to let the system extract and process your image content.
 
 ---
 
-## 4. After Processing
-
-The system will:
-
-- Extract text from images using OCR
-- Summarize long blocks of text if present
-- Generate **smart notes** based on extracted content
-- Adjust the output according to selected style and tone
-
----
-
-## 5. Notes & Tips
+## 3. Notes & Tips
 
 - Use **clear, non-blurry images**
 - Handwriting should be neat and legible
@@ -104,45 +89,45 @@ The system will:
 
 ---
 
-## 6. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
-### ❓ What image formats are supported?
+### What image formats are supported?
 
 `.png`, `.jpg`, `.jpeg`, `.heic`, `.heif` – `.gif` is not supported.
 
 ---
 
-### ❓ How many images can I upload at once?
+### How many images can I upload at once?
 
 Up to **10 images per upload**. To process more, split them into separate uploads.
 
 ---
 
-### ❓ Can it recognize handwriting?
+### Can it recognize handwriting?
 
 Yes – as long as the handwriting is **clear and legible**. Poor lighting or messy text may reduce accuracy.
 
 ---
 
-### ❓ Do I have to select a language?
+### Do I have to select a language?
 
 Not required, but **selecting the correct language** improves OCR accuracy.
 
 ---
 
-### ❓ Can I reorder the image sequence?
+### Can I reorder the image sequence?
 
 Yes – you can **drag to reorder** the images during fullscreen view.
 
 ---
 
-### ❓ Does it support markdown or bullet extraction?
+### Does it support markdown or bullet extraction?
 
 Yes – simply specify this in **Additional Instructions** (e.g., “Summarize in bullet points”, “Convert to markdown”).
 
 ---
 
-### ❓ Why wasn’t my image processed?
+### Why wasn’t my image processed?
 
 Common reasons:
 

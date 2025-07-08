@@ -14,7 +14,7 @@ Enable **Advanced** to customize how your recordings are processed and summarize
 
 ---
 
-### 1 Summary Style
+### 1. Summary Style
 
 Select how the system summarizes your recording:
 
@@ -32,7 +32,7 @@ Select how the system summarizes your recording:
 
 ---
 
-### 2 Writing Style
+### 2. Writing Style
 
 Adjust the tone of how the content is presented:
 
@@ -50,7 +50,7 @@ Adjust the tone of how the content is presented:
 
 ---
 
-### 3 Additional Instructions (Optional)
+### 3. Additional Instructions (Optional)
 
 You can add short custom instructions to personalize how your summary is generated (max 50 characters):
 

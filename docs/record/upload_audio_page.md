@@ -4,10 +4,6 @@ sidebar_position: 2
 
 # Upload Audio
 
----
-
-## 1. Overview
-
 The **Upload Audio** feature allows users to upload existing audio files from their device for processing directly within the app. Once uploaded, the audio file is handled the same way as a live recording — including language selection, AI-generated summaries, notes, or transcriptions.
 
 This feature is especially useful for users who already have recordings from meetings, interviews, lectures, or other events, and want to analyze or extract information without re-recording.
@@ -21,7 +17,7 @@ This feature is especially useful for users who already have recordings from mee
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_audio_file.png"/>
@@ -49,7 +45,7 @@ From the main screen, tap the **Audio** section to open the upload interface.
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open the upload interface
 
@@ -90,7 +86,7 @@ The system will begin processing just like it would with a live recording.
 
 ---
 
-## 4. Notes & Tips
+## 3. Notes & Tips
 
 - Only **local files** on your device are supported — cloud services like Google Drive or iCloud must be downloaded first
 - You can **upload one file at a time**
@@ -100,7 +96,7 @@ The system will begin processing just like it would with a live recording.
 
 ---
 
-## 5. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
 ### What audio formats are supported?
 

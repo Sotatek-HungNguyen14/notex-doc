@@ -4,9 +4,8 @@ sidebar_position: 6
 
 # Recording Schedule 
 
-## Overview
+---
 
-**Brief Explanation**  
 The Recording Schedule feature enables users to create automated reminders for regular audio recording sessions. This functionality helps establish consistent recording habits by sending scheduled notifications at specified times and days throughout the week.
 
 **Key Benefits**
@@ -17,7 +16,8 @@ The Recording Schedule feature enables users to create automated reminders for r
 - **Weekly recurring system**: Set-and-forget scheduling with automatic weekly repetition
 - **Multiple reminder support**: Create multiple schedules for different types of recordings or projects
 
-## UI/UX Specification
+---
+## 1. UI/UX Specification
 
 **Screen Components**
 
@@ -42,7 +42,8 @@ The Recording Schedule feature enables users to create automated reminders for r
 Home Screen → Avatar Icon ( Settings ) → Recording Schedule
 ```
 
-## How to Use
+---
+## 2. How to Use
 
 **Step 1: Access Recording Schedule**
 
@@ -105,7 +106,8 @@ Home Screen → Avatar Icon ( Settings ) → Recording Schedule
   <em>Reminder options menu with Edit title, and Delete actions</em>
 </p>
 
-## Notes & Tips
+---
+## 3. Notes & Tips
 
 **Scheduling Optimization**
 
@@ -128,20 +130,22 @@ Home Screen → Avatar Icon ( Settings ) → Recording Schedule
 - **Permission dependency**: Recording Schedule requires notification permissions to function properly
 - **Background processing**: Notifications work even when the app is closed or backgrounded
 
-## FAQ
+## 4. FAQ
 
 **Setup & Permission Issues**
 
-**Q: The Recording Schedule toggle is disabled or grayed out.**  
-A: This indicates notification permissions haven't been granted. To resolve:
+### The Recording Schedule toggle is disabled or grayed out.**  
+This indicates notification permissions haven't been granted. To resolve:
 
 1. Go to device Settings → Apps → [App Name] → Notifications
 2. Enable "Allow notifications" for the app
 3. Return to the app and access Recording Schedule again
 4. The toggle should now be active and functional
 
-**Q: I'm not receiving recording reminder notifications.**  
-A: Check these common issues:
+---
+
+### I'm not receiving recording reminder notifications.**  
+Check these common issues:
 
 - **Permission status**: Verify notifications are enabled in device settings
 - **Do Not Disturb**: Ensure your device isn't in Do Not Disturb mode during scheduled times
@@ -149,137 +153,155 @@ A: Check these common issues:
 - **Battery optimization**: Disable battery optimization for the app to ensure reliable notification delivery
 - **Time zone changes**: Manually refresh reminders after traveling across time zones
 
-**Q: The app crashes when I try to create a new reminder.**  
-A: This typically indicates:
+---
+
+### The app crashes when I try to create a new reminder.**  
+This typically indicates:
 
 - Insufficient device memory or storage space
 - Outdated app version requiring update
 - Conflicts with device notification system
 - **Solution**: Restart device, update the app, and ensure adequate storage space
 
+---
 **Creation & Editing Issues**
 
-**Q: I can't save my reminder - the Create button is disabled.**  
-A: The Create button requires all mandatory fields to be properly filled:
+### I can't save my reminder - the Create button is disabled.**  
+The Create button requires all mandatory fields to be properly filled:
 
 - **Title validation**: Must be 2-50 characters, cannot be empty or only spaces
 - **Day selection**: At least one day of the week must be selected
 - **Time setting**: Verify a specific time has been chosen (not default/blank)
 - **Character count**: Check title length doesn't exceed 50 characters
 
-**Q: Why can't I select a title with only one character?**  
-A: Single-character titles are restricted because:
+---
+### Why can't I select a title with only one character?**  
+Single-character titles are restricted because:
 
 - They provide insufficient context for effective reminders
 - May cause display issues in notification interfaces
 - Don't meet minimum descriptive requirements for meaningful reminders
 
-**Q: My reminder title gets cut off in the reminder card.**  
-A: Title truncation occurs when:
+---
+### My reminder title gets cut off in the reminder card.**  
+Title truncation occurs when:
 
 - Titles exceed display space in compact card format
 - Device screen size limitations affect text rendering
 - **Solution**: Use concise but descriptive titles (under 20 characters for best display)
 - Full titles remain visible in edit dialogs and notifications
 
-**Q: I can't edit the time on an existing reminder.**  
-A: Editing restrictions may occur due to:
+---
+### I can't edit the time on an existing reminder.**  
+Editing restrictions may occur due to:
 
 - Notification permission changes since creation
 - App requiring restart after system updates
 - **Solution**: Delete and recreate the reminder, or restart the app and try editing again
 
+---
 **Scheduling & Timing Issues**
 
-**Q: Can I set reminders for specific dates instead of recurring weekly schedules?**  
-A: Currently, the Recording Schedule only supports weekly recurring patterns. For one-time reminders:
+### Can I set reminders for specific dates instead of recurring weekly schedules?**  
+Currently, the Recording Schedule only supports weekly recurring patterns. For one-time reminders:
 
 - Create a weekly reminder and delete it after the specific date
 - Use device's built-in calendar or reminder apps for one-time events
 - Consider creating temporary weekly reminders for short-term projects
 
-**Q: What happens if I change time zones while traveling?**  
-A: Recording Schedule uses device local time, so:
+---
+### What happens if I change time zones while traveling?**  
+Recording Schedule uses device local time, so:
 
 - Reminders automatically adjust to new time zone
 - Scheduled times remain consistent with device time
 - No manual adjustment needed for time zone changes
 - Notifications continue at the same local times in the new time zone
 
-**Q: Can I set multiple reminders for the same day at different times?**  
-A: Yes, you can create multiple reminders with different times on the same days:
+---
+### Can I set multiple reminders for the same day at different times?**  
+Yes, you can create multiple reminders with different times on the same days:
 
 - Each reminder operates independently
 - Use descriptive titles to distinguish purposes (e.g., "Morning Prep" vs "Evening Reflection")
 - Recommended minimum 30-minute spacing between reminders
 
-**Q: Why do some notifications arrive late or not at all?**  
-A: Notification delivery can be affected by:
+---
+### Why do some notifications arrive late or not at all?**  
+Notification delivery can be affected by:
 
 - **Battery optimization**: Device power-saving features may delay notifications
 - **Background app restrictions**: Ensure the app can run in background
 - **System notification limits**: Device may throttle frequent notifications
 - **Network connectivity**: Poor connection during scheduling can affect notification registration
 
+---
 **Management & Organization**
 
-**Q: How many recording schedules can I create?**  
-A: There's no explicit limit mentioned in the app, but practical considerations include:
+### How many recording schedules can I create?**  
+There's no explicit limit mentioned in the app, but practical considerations include:
 
 - Device notification system limitations
 - User interface display constraints
 - Recommendation: 5-10 reminders for optimal management and effectiveness
 
-**Q: Can I temporarily disable a reminder without deleting it?**  
-A: Currently, individual reminders can't be disabled - they must be deleted. For temporary disabling:
+---
+### Can I temporarily disable a reminder without deleting it?**  
+Currently, individual reminders can't be disabled - they must be deleted. For temporary disabling:
 
 - Use the main Recording Schedule toggle to disable all reminders
 - Delete and recreate specific reminders when needed
 - Consider editing reminder days to exclude unwanted notification days
 
-**Q: Is there a way to see all my upcoming recording reminders in one view?**  
-A: The Recording Schedule screen shows all active reminders, but for upcoming schedule preview:
+---
+### Is there a way to see all my upcoming recording reminders in one view?**  
+The Recording Schedule screen shows all active reminders, but for upcoming schedule preview:
 
 - Reminder cards display selected days and times
 - Check device's notification history for recent recording reminders
 - Use calendar apps to track recording sessions based on reminder schedules
 
+---
 **Technical & Advanced Issues**
 
-**Q: Do reminders work when the app is closed or my phone is locked?**  
-A: Yes, recording reminders use system-level notifications that function:
+### Do reminders work when the app is closed or my phone is locked?**  
+Yes, recording reminders use system-level notifications that function:
 
 - When the app is completely closed
 - During device lock screen state
 - In background or sleep mode
 - Independent of app's active status
 
-**Q: What happens to my reminders if I reinstall the app?**  
-A: Recording schedules are stored locally, so reinstalling the app will:
+---
+### What happens to my reminders if I reinstall the app?**  
+Recording schedules are stored locally, so reinstalling the app will:
 
 - Delete all existing reminder configurations
 - Require recreation of all recording schedules
 - Reset notification permissions (may need re-authorization)
 - **Recommendation**: Note down current schedules before reinstalling
 
-**Q: Can I export or backup my recording schedule settings?**  
-A: Currently, there's no built-in export feature for recording schedules:
+---
+### Can I export or backup my recording schedule settings?**  
+Currently, there's no built-in export feature for recording schedules:
 
 - Settings are stored locally on the device
 - Manual recreation required when switching devices
 - Consider screenshots of current reminders for reference during device transfers
 
+---
 **Support & Escalation**
 
-**Q: Who should I contact if Recording Schedule issues persist?**  
-A: Contact support through:
+### Who should I contact if Recording Schedule issues persist?**  
+Contact support through:
 
 - **Email**: hello@notexapp.com (24/7 response within 24 hours)
 - **In-app support**: Settings → Contact Support (includes automatic diagnostic information)
 - **Live chat**: Available during business hours for urgent notification issues
 
-**Q: What information should I provide when reporting Recording Schedule problems?**  
-A: Include:
+---
+### What information should I provide when reporting Recording Schedule problems?**  
+Include:
 
 - Device model and operating system version
 - App version number and last update date

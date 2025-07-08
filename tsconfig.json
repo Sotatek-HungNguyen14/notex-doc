@@ -1,8 +1,15 @@
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": "."
+    "module": "commonjs",
+    "moduleResolution": "node16",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "allowUmdGlobalAccess": true
   },
-  "exclude": [".docusaurus", "build"]
+  "exclude": [
+    "node_modules/@types/mdx/**"
+  ]
 }

@@ -4,19 +4,17 @@ sidebar_position: 1
 
 # Export Note
 
-## 1. Overview
+The **Export Note** feature allows you to export a note in multiple formats, making it easy to share, store, or reuse the content for study or work. You can export your note as a **Summary**, full **Transcript**, a set of **Flashcards**, or a **Quiz**.
 
-Tính năng **Export Note** cho phép bạn xuất ghi chú (note),thành nhiều định dạng khác nhau, giúp bạn dễ dàng chia sẻ, lưu trữ hoặc sử dụng cho các mục đích học tập, làm việc. Bạn có thể xuất nội dung dưới dạng Summary, bản ghi Transcript, bộ thẻ Flashcards, hoặc bộ câu hỏi Quiz.
+### Key Benefits:
 
-**Lợi ích nổi bật:**
+- Easily store and share learning or meeting content.
+- Multiple export options: Summary, Transcript, Flashcards, Quiz.
+- Export each format independently for different use cases.
 
-- Dễ dàng lưu trữ và chia sẻ nội dung học tập.
-- Đa dạng lựa chọn xuất: Summary, Transcript, Flashcards, Quiz.
-- Hỗ trợ xuất riêng từng định dạng, thuận tiện cho từng mục đích sử dụng.
+---
 
-—
-
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/export_type.jpg"/>
@@ -24,67 +22,82 @@ Tính năng **Export Note** cho phép bạn xuất ghi chú (note),thành nhiề
 <em>Options for exporting</em>
 </p>
 
-## 3. How to Use
+---
 
-### Bước 1: Mở note muốn export trong Note Detail
+## 2. How to Use
 
-- Truy cập vào mục note hoặc nội dung mà bạn muốn xuất.
+### Step 1: Open the note you want to export
 
-### Bước 2: Mở menu thao tác
+- Go to the Notes section and open the note you want to export.
 
-- Nhấn vào biểu tượng ba chấm (⋮) ở góc trên bên phải màn hình.
+### Step 2: Open the action menu
 
-### Bước 3: Chọn **Export**
+- Tap the three-dot icon (⋮) at the top-right corner of the screen.
 
-- Trong menu hiện ra, chọn mục **Export**.
+### Step 3: Select **Export**
 
-### Bước 4: Chọn định dạng export
+- From the dropdown menu, select the **Export** option.
 
-- Một danh sách các tùy chọn export sẽ xuất hiện, gồm:
-  - **Summary**: Xuất bản tóm tắt nội dung
-  - **Transcript**: Xuất bản ghi nội dung
-  - **Flashcards**: Xuất bộ thẻ ghi nhớ
-  - **Quiz**: Xuất bộ câu hỏi trắc nghiệm
-- Chọn định dạng phù hợp với nhu cầu.
+### Step 4: Choose an export format
 
-### Bước 5: Hoàn tất export
+- A list of available export formats will appear:
+  - **Summary**: Export the summarized content.
+  - **Transcript**: Export the full transcript.
+  - **Flashcards**: Export as a flashcard set.
+  - **Quiz**: Export as a multiple-choice quiz.
+- Select the format that fits your need.
 
-- Làm theo hướng dẫn tiếp theo trên màn hình (tùy từng nền tảng, file sẽ được tải xuống hoặc chia sẻ qua ứng dụng khác).
+### Step 5: Complete the export process
+
+- Follow the on-screen instructions to complete the export.  
+  Depending on the platform, the file will either be downloaded or shared via another app.
 
 ---
 
-## 4. Notes / Tips & Tricks
+## 3. Notes & Tips
 
-- **Chỉ khi note có 1 set quiz hoặc 1 set flashcard, tuỳ chọn export Flashcards/Quiz mới hiển thị trong menu Export.**
-  Nếu bạn không thấy tuỳ chọn này, vui lòng kiểm tra lại nội dung note đã có đủ bộ Quiz hoặc Flashcard chưa.
-- Có thể sử dụng chức năng “Share Note” để gửi nhanh nội dung qua các ứng dụng chat/email.
-- Khi xuất bản Flashcards hoặc Quiz, hãy đảm bảo note đã được tạo đúng cấu trúc bộ câu hỏi/trả lời.
+- **Flashcards** and **Quiz** options will only appear in the Export menu if your note contains **exactly one** flashcard or quiz set.  
+  If you don’t see these options, check whether the note includes a valid set and that there is only one.
 
----
+- **Formatting tips:**
 
-## 5. FAQ – Câu hỏi thường gặp
+  - Flashcards should be clearly structured in question–answer pairs.
+  - Quiz sets should include questions and multiple-choice options.
 
-**Q1. Tại sao tôi không thấy tuỳ chọn export Flashcards hoặc Quiz?**
-A1: Chỉ khi note đang mở có đúng 1 set quiz hoặc flashcard, các tuỳ chọn này mới hiển thị. Hãy kiểm tra lại note đã tạo bộ quiz/flashcard chưa, và đảm bảo mỗi note chỉ có một set.
+- **Supported file formats:**
 
-**Q2. Tôi có thể export note sang các ứng dụng khác không?**
-A2: Có, sau khi export bạn có thể chia sẻ file qua email, chat, Google Drive, hoặc các nền tảng lưu trữ khác.
+  - **Summary**, **Flashcards**, **Quiz**: exportable as **PDF** or **DOCX**.
+  - **Transcript**: can also be exported as **SubRip (.srt)**, suitable for subtitles.
 
-**Q3. Export có giới hạn số lượng nội dung không?**
-A3: Với các note lớn, thời gian export có thể lâu hơn. Tuy nhiên, thông thường bạn có thể export toàn bộ nội dung của note hiện tại.
+- Use the **"Share Note"** feature to send exported content quickly via chat or email.
 
-**Q4. Tôi có thể export nhiều note cùng lúc không?**
-A4: Hiện tại, bạn chỉ có thể export từng note một. Nếu cần xuất nhiều note, hãy lặp lại thao tác cho từng note.
+- For large notes, exporting may take a few seconds. Please wait while processing completes.
+
+- Currently, exporting is done **one note at a time**. Repeat the steps to export multiple notes.
 
 ---
 
-## 6. Lưu ý về Flashcard/Quiz Export và định dạng file
+## 4. FAQ
 
-- Tuỳ chọn **Flashcards** hoặc **Quiz** sẽ chỉ hiển thị trong phần Export nếu:
+### Why don't I see the Flashcards or Quiz export options?
 
-  - Ghi chú của bạn **có đúng 1 bộ Flashcard hoặc 1 bộ Quiz**.
-  - Nếu không thấy các lựa chọn này, vui lòng tạo hoặc gom lại bộ Flashcard/Quiz thành một set duy nhất.
+A1: These options are only visible if the note contains **exactly one** flashcard or quiz set.  
+Please double-check your note and ensure it includes only one set properly formatted.
 
-- **Lưu ý về định dạng file export:**
-  - Với các dạng export **Summary**, **Flashcards**, **Quiz**: chỉ có thể export dưới dạng **PDF** hoặc **DOCX**.
-  - Riêng với export **Transcript**: có thể export thêm dưới dạng **SubRip (.srt)** (phù hợp làm phụ đề).
+---
+
+### Can I export notes to other apps?
+
+Yes. After exporting, you can share the file via email, messaging apps, Google Drive, or other storage platforms.
+
+### Is there a limit on how much content I can export?
+
+You can generally export the full content of a note.  
+For larger notes, the export may take more time to complete.
+
+---
+
+### Can I export multiple notes at once?
+
+Currently, exporting is only available for one note at a time.  
+To export multiple notes, repeat the export process for each one individually.

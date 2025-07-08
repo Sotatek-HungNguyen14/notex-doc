@@ -4,9 +4,9 @@ sidebar_position: 11
 
 # Edit Username 
 
-## Overview
+---
 
-**Brief Explanation**  
+
 The Edit Username feature allows users to modify their display name within the application, providing personalized identity representation and updated profile information. This functionality enables users to establish their preferred professional or personal identity across all app interactions.
 
 **Key Benefits**
@@ -17,7 +17,7 @@ The Edit Username feature allows users to modify their display name within the a
 - **Instant synchronization**: Real-time name updates across all logged-in devices
 - **Flexible customization**: Support for various character types and international naming conventions
 
-## UI/UX Specification
+## 1. UI/UX Specification
 
 **Screen Components**
 
@@ -43,7 +43,7 @@ The Edit Username feature allows users to modify their display name within the a
 Home Screen → Avatar Icon ( Settings ) → Profile Section → Username/Edit Icon → Edit Dialog
 ```
 
-## How to Use
+## 2. How to Use
 
 **Step 1: Access Profile Settings**
 
@@ -86,7 +86,7 @@ Home Screen → Avatar Icon ( Settings ) → Profile Section → Username/Edit I
 3. Navigate through different app sections to confirm name synchronization
 4. Verify the update appears on other logged-in devices
 
-## Notes & Tips
+## 3. Notes & Tips
 
 **Character Guidelines**
 
@@ -108,12 +108,12 @@ Home Screen → Avatar Icon ( Settings ) → Profile Section → Username/Edit I
 - **Offline capability**: Name changes queue for synchronization when internet connectivity is restored
 - **Backup considerations**: Previous usernames are not stored; each change overwrites the previous value
 
-## FAQ
+## 4. FAQ
 
 **Username Requirements & Validation**
 
-**Q: What characters are allowed in usernames?**  
-A: Usernames support a comprehensive character set including:
+### What characters are allowed in usernames?**  
+Usernames support a comprehensive character set including:
 
 - Alphabetic characters (A-Z, a-z) in all supported languages
 - Numeric characters (0-9)
@@ -122,19 +122,19 @@ A: Usernames support a comprehensive character set including:
 - Unicode characters for international names
 - Emojis and other Unicode symbols are generally supported
 
-**Q: Why can't I save a username with only one character?**  
-A: The minimum length requirement of 2 characters ensures proper identification and prevents display issues in interface elements. Single characters may cause confusion in user recognition and system processing.
+### Why can't I save a username with only one character?**  
+The minimum length requirement of 2 characters ensures proper identification and prevents display issues in interface elements. Single characters may cause confusion in user recognition and system processing.
 
-**Q: What happens if I exceed the 50-character limit?**  
-A: The input field prevents typing beyond 50 characters. If you attempt to paste text exceeding this limit, only the first 50 characters will be accepted, and you'll receive a warning about the character limit.
+### What happens if I exceed the 50-character limit?**  
+The input field prevents typing beyond 50 characters. If you attempt to paste text exceeding this limit, only the first 50 characters will be accepted, and you'll receive a warning about the character limit.
 
-**Q: Can I use my email address as my username?**  
-A: Yes, email addresses are permitted as usernames since they typically fall within character limits and contain only supported characters.
+### Can I use my email address as my username?**  
+Yes, email addresses are permitted as usernames since they typically fall within character limits and contain only supported characters.
 
 **Edit Process & Interface Issues**
 
-**Q: The edit dialog doesn't open when I tap my username.**  
-A: Try these troubleshooting steps:
+### The edit dialog doesn't open when I tap my username.**  
+Try these troubleshooting steps:
 
 - Ensure you're tapping directly on the username text or edit icon
 - Check that you're logged into a valid account
@@ -142,16 +142,16 @@ A: Try these troubleshooting steps:
 - Verify you have internet connectivity for the edit interface to load
 - Update the app if you're using an older version
 
-**Q: I see "Name cannot be empty" error when trying to save.**  
-A: This error occurs when:
+### I see "Name cannot be empty" error when trying to save.**  
+This error occurs when:
 
 - The input field is completely blank
 - Only spaces or invisible characters are entered
 - The text was accidentally deleted before saving
 - **Solution**: Enter at least 2 visible characters and ensure the field contains actual text content
 
-**Q: My username change isn't saving and shows "Failed to update name."**  
-A: Common causes and solutions:
+### My username change isn't saving and shows "Failed to update name."**  
+Common causes and solutions:
 
 - **Poor connectivity**: Verify stable internet connection and retry
 - **Authentication issues**: Log out and log back in, then attempt the change
@@ -159,8 +159,8 @@ A: Common causes and solutions:
 - **Character encoding issues**: Try using simpler characters without special symbols
 - **Account restrictions**: Ensure your account has full editing privileges
 
-**Q: The character counter shows incorrect numbers.**  
-A: Character counting discrepancies may occur with:
+### The character counter shows incorrect numbers.**  
+Character counting discrepancies may occur with:
 
 - Special Unicode characters that occupy multiple character spaces
 - Emojis counting as multiple characters despite appearing as single symbols
@@ -169,31 +169,31 @@ A: Character counting discrepancies may occur with:
 
 **Synchronization & Display Issues**
 
-**Q: My new username appears on some screens but not others.**  
-A: Incomplete synchronization can occur due to:
+### My new username appears on some screens but not others.**  
+Incomplete synchronization can occur due to:
 
 - Cached data in certain app sections requiring refresh
 - Background processes still updating various interface elements
 - **Solution**: Force-close and restart the application, or pull down to refresh affected screens
 
-**Q: My username looks different on different devices.**  
-A: Cross-device discrepancies may result from:
+### My username looks different on different devices.**  
+Cross-device discrepancies may result from:
 
 - Delayed synchronization between devices
 - Different app versions displaying names differently
 - Network connectivity issues during the update process
 - **Solution**: Ensure all devices have internet connectivity and the latest app version
 
-**Q: Long usernames are cut off with "..." - can I see the full name?**  
-A: Full usernames are accessible by:
+### Long usernames are cut off with "..." - can I see the full name?**  
+Full usernames are accessible by:
 
 - Tapping on the truncated name to view complete text
 - Navigating to the Profile section in Settings for full display
 - Using the edit dialog which always shows the complete name
 - This truncation only affects compact display areas to maintain interface clarity
 
-**Q: My username reverted to the previous name after updating.**  
-A: Name reversions typically indicate:
+### My username reverted to the previous name after updating.**  
+Name reversions typically indicate:
 
 - Network interruption during the save process
 - Authentication token expiration requiring re-login
@@ -202,19 +202,19 @@ A: Name reversions typically indicate:
 
 **Character Set & International Support**
 
-**Q: Can I use non-English characters in my username?**  
-A: Yes, the application fully supports international character sets including:
+### Can I use non-English characters in my username?**  
+Yes, the application fully supports international character sets including:
 
 - Latin script variations (accented characters)
 - Cyrillic, Arabic, Chinese, Japanese, and Korean characters
 - Regional symbols and diacritical marks
 - Most Unicode character categories are supported
 
-**Q: Do emojis count differently toward the character limit?**  
-A: Emojis may count as multiple characters toward the 50-character limit due to Unicode encoding. Complex emojis (combinations, skin tones) may consume 2-4 characters each.
+### Do emojis count differently toward the character limit?**  
+Emojis may count as multiple characters toward the 50-character limit due to Unicode encoding. Complex emojis (combinations, skin tones) may consume 2-4 characters each.
 
-**Q: Why do some special characters cause errors?**  
-A: Certain characters may be restricted due to:
+### Why do some special characters cause errors?**  
+Certain characters may be restricted due to:
 
 - System security considerations
 - Database compatibility requirements
@@ -223,46 +223,46 @@ A: Certain characters may be restricted due to:
 
 **Account & Privacy Considerations**
 
-**Q: Is my username visible to other users?**  
-A: Username visibility depends on app features and privacy settings:
+### Is my username visible to other users?**  
+Username visibility depends on app features and privacy settings:
 
 - Collaborative features may display usernames to other participants
 - Shared content may include username attribution
 - Check privacy settings to understand current visibility scope
 
-**Q: Can I have the same username as another user?**  
-A: Yes, usernames are display names only and multiple users can have identical names. User identification relies on unique account identifiers rather than display names.
+### Can I have the same username as another user?**  
+Yes, usernames are display names only and multiple users can have identical names. User identification relies on unique account identifiers rather than display names.
 
-**Q: Does changing my username affect my account security?**  
-A: Username changes do not impact account security. Login credentials, authentication tokens, and account permissions remain unchanged when modifying display names.
+### Does changing my username affect my account security?**  
+Username changes do not impact account security. Login credentials, authentication tokens, and account permissions remain unchanged when modifying display names.
 
 **Technical & Advanced Issues**
 
-**Q: Why does the app crash when I try to edit my username?**  
-A: App crashes during username editing may indicate:
+### Why does the app crash when I try to edit my username?**  
+App crashes during username editing may indicate:
 
 - Insufficient device memory for dialog rendering
 - Conflicts with device keyboard or input methods
 - Corrupted app data requiring reinstallation
 - **Solution**: Restart device, ensure adequate storage, and update to latest app version
 
-**Q: Can I change my username while offline?**  
-A: Username changes require internet connectivity for immediate synchronization. Changes attempted offline will queue for processing when connectivity is restored.
+### Can I change my username while offline?**  
+Username changes require internet connectivity for immediate synchronization. Changes attempted offline will queue for processing when connectivity is restored.
 
-**Q: Does username history get stored anywhere?**  
-A: The application does not maintain a history of previous usernames. Each change permanently overwrites the previous name with no recovery option for historical names.
+### Does username history get stored anywhere?**  
+The application does not maintain a history of previous usernames. Each change permanently overwrites the previous name with no recovery option for historical names.
 
 **Support & Escalation**
 
-**Q: Who should I contact if username issues persist?**  
-A: Contact support through:
+### Who should I contact if username issues persist?**  
+Contact support through:
 
 - **Email**: hello@notexapp.com (24/7 response within 24 hours)
 - **In-app support**: Settings → Contact Support (includes automatic diagnostic information)
 - **Live chat**: Available during business hours for urgent account issues
 
-**Q: What information should I provide when reporting username problems?**  
-A: Include:
+### What information should I provide when reporting username problems?**  
+Include:
 
 - Current and desired username details
 - Specific error messages or screenshots

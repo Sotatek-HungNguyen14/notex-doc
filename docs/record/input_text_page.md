@@ -4,10 +4,6 @@ sidebar_position: 5
 
 # Input text
 
----
-
-## 1. Overview
-
 The **Text Input** feature allows users to manually type or paste written content so the system can analyze, summarize, transform writing style, and generate intelligent notes using AI.
 
 This feature is especially useful when you already have written content such as:
@@ -26,7 +22,7 @@ This feature is especially useful when you already have written content such as:
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_input_text.png"/>
@@ -55,7 +51,7 @@ From the main screen, select **Text** to open the text input interface.
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open the Text Input feature
 
@@ -92,17 +88,7 @@ The system will analyze it and generate a summary or note.
 
 ---
 
-## 4. After Processing
-
-Once processed, the system will generate:
-
-- A **summary** based on the selected length and style
-- **Smart notes** or highlights extracted from the key content
-- Output content adjusted to match your selected writing style
-
----
-
-## 5. Notes & Tips
+## 3. Notes & Tips
 
 - For long content, consider **splitting it into smaller chunks** for better control
 - Use **Additional Instructions** to help AI understand your specific goals
@@ -111,7 +97,7 @@ Once processed, the system will generate:
 
 ---
 
-## 6. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
 ### What's the maximum character limit?
 

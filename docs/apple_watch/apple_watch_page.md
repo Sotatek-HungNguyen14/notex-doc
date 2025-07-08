@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# 📲 Guide to Integrating Apple Watch & iPhone with NoteX AI
+# Apple Watch Sync
 
----
+The **Apple Watch Sync** feature allows you to record audio directly on your Apple Watch and sync it with your iPhone for seamless note-taking.
 
-## 0. Preparation Before Use
+## 1. Preparation Before Use
 
 Before starting to record with your Apple Watch and syncing with your iPhone, please ensure:
 
@@ -18,7 +18,7 @@ Before starting to record with your Apple Watch and syncing with your iPhone, pl
 
 ---
 
-## 1. ⏺ Recording on Apple Watch
+## 2. ⏺ Recording on Apple Watch
 
 ### Steps:
 
@@ -52,7 +52,7 @@ After the recording is complete:
 
 ---
 
-## 4. 📝 Creating Notes from Synced Recordings
+## 3. Creating Notes from Synced Recordings
 
 1. 📌 Go to **Settings > Apple Watch Sync** and select a newly synced recording.
 2. 🆕 Tap **Create Note** to convert the recording into a note using NoteX AI.

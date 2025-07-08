@@ -95,37 +95,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentation',
+          title: 'Legal',
           items: [
-            {
-              label: 'Docs Home',
-              to: '/docs/intro',
-            },
+            { label: 'Terms', href: 'https://notexapp.com/tos' },
+            { label: 'Privacy', href: 'https://notexapp.com/privacy' },
           ],
         },
         {
-          title: 'Community',
+          title: 'Download',
           items: [
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/C4zQEJMNxR',
-            },
-            // Thêm các link khác nếu có
+            { label: 'iOS', href: 'https://apps.apple.com/us/app/notex-ai/id6644901010' },
+            { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.sota.ainotex&hl=en' },
+            { label: 'Web', href: 'https://notexapp.com' },
           ],
         },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     // {
-        //     //   label: 'Blog',
-        //     //   to: '/blog',
-        //     // },
-        //     // {
-        //     //   label: 'GitHub',
-        //     //   href: 'https://github.com/facebook/docusaurus',
-        //     // },
-        //   ],
-        // },
+        {
+          title: 'Resources',
+          items: [
+            { label: 'Pricing', href: 'https://notexapp.com/iap' },
+            { label: 'Community', href: 'https://discord.gg/C4zQEJMNxR' },
+            { label: 'Affiliates', href: 'https://checkout.notexapp.com/affiliates' },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} NoteX AI`,
     },
