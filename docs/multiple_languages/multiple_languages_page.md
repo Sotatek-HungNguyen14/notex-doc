@@ -2,11 +2,9 @@
 sidebar_position: 1
 ---
 
-# FAQ Answer
+# Multiple Languages
 
-**Q: Is NoteX available in multiple languages?**
-
-A: Yes! NoteX supports multiple languages across different features:
+NoteX supports multiple languages across different features:
 
 ## UI Interface Languages (13 languages - updating)
 

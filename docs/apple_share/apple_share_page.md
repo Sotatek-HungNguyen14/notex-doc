@@ -2,11 +2,7 @@
 sidebar_position: 1
 ---
 
-# Share Links and Files to NoteX AI from Other Apps (Apple Share Extension)
-
----
-
-## 1. Overview
+# Apple Share Extension
 
 The **Apple Share Extension** lets you share **links (URLs)** and **files** from any compatible app (e.g., Safari, YouTube, Files...) directly to the **NoteX AI** app.
 
@@ -14,7 +10,7 @@ Shared content is automatically pre-filled in NoteX and can be processed by AI t
 
 ---
 
-## 2. How to Use the Share-to-NoteX Feature
+## 1. How to Use the Share-to-NoteX Feature
 
 ### 📱 Steps:
 
@@ -42,7 +38,7 @@ Shared content is automatically pre-filled in NoteX and can be processed by AI t
 
 ---
 
-## 3. What Happens After Selecting NoteX
+## 2. What Happens After Selecting NoteX
 
 After choosing **NoteX AI** from the share menu, the NoteX app will open automatically and:
 
@@ -58,14 +54,14 @@ After choosing **NoteX AI** from the share menu, the NoteX app will open automat
 
 ---
 
-## 4. After Sharing
+## 3. After Sharing
 
 - 📌 Your note will appear in the **Home** or **Recent Notes** section of NoteX AI.
 - 🚀 You can reopen the note later to edit, move it to folders, or apply AI features like summarization or blog generation.
 
 ---
 
-## 5. Important Notes
+## 4. Important Notes
 
 - Currently supported types:
 
@@ -76,9 +72,9 @@ After choosing **NoteX AI** from the share menu, the NoteX app will open automat
 
 ---
 
-## 6. Frequently Asked Questions (FAQ)
+## 5. FAQ
 
-### ❓ I don’t see NoteX AI in the share sheet – what should I do?
+### I don't see NoteX AI in the share sheet – what should I do?
 
 - Scroll to the bottom of the share sheet → tap **Edit Actions**
 - Enable **NoteX AI** → tap **Done**
@@ -86,20 +82,20 @@ After choosing **NoteX AI** from the share menu, the NoteX app will open automat
 
 ---
 
-### ❓ Can I share images or videos to NoteX?
+### Can I share images or videos to NoteX?
 
 - 📌 Currently, only **links (URLs)** and **document files (PDF, DOCX, etc.)** are supported.
 - Media support may be added in future versions.
 
 ---
 
-### ❓ Do I need an internet connection to share content?
+### Do I need an internet connection to share content?
 
 - ✅ You can send content without internet, but **AI processing features** (e.g., summarization) require a connection.
 
 ---
 
-### ❓ Where can I find the note after sharing?
+### Where can I find the note after sharing?
 
 - After tapping **Add Note**, the note will be saved to:
   - The **Home** tab
@@ -107,7 +103,7 @@ After choosing **NoteX AI** from the share menu, the NoteX app will open automat
 
 ---
 
-### ❓ Is AI applied automatically after sharing?
+### Is AI applied automatically after sharing?
 
 - No. After you tap **Add Note**, you can choose to manually apply AI actions (e.g., summary, blog, LinkedIn post) on the new note.
 
