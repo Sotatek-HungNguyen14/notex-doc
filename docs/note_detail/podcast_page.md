@@ -4,49 +4,22 @@ sidebar_position: 5
 
 # Podcast
 
+The **Podcast** feature in NoteX allows you to automatically turn any note, text, PDF, or transcribed audio into professional-quality podcast episodes.
 
-
-
-
-
-
-
-## 1. Overview
-
-
-
-
-
-
-
-
-Tính năng **Podcast** trên NoteX giúp bạn tự động biến mọi ghi chú, văn bản, PDF, hoặc bản ghi âm đã được chuyển thành text thành các tập podcast audio chuyên nghiệp. Bạn có thể chọn nhiều giọng đọc, nhiều nhân vật khác nhau, tạo trải nghiệm phỏng vấn hoặc đối thoại tự nhiên. Podcast có thể kết hợp cùng Flashcard và Quiz, hỗ trợ học mọi lúc – mọi nơi.
-
-
-
-
-
-
-
-
-**Lợi ích nổi bật:**
-- Biến ghi chú thành audio podcast chỉ với một click.
-- Hỗ trợ nhiều giọng đọc, nhiều nhân vật, giả lập phỏng vấn/hỏi đáp tự nhiên.
-- Nghe podcast mọi lúc mọi nơi – khi lái xe, tập gym, đi bộ…
-- Tăng hiệu quả học ngoại ngữ và khả năng ghi nhớ thông tin.
-
-
-
-
-
-
-
+You can choose from multiple voices and characters to simulate natural interviews or dialogues. Podcasts can also be combined with flashcards and quizzes to support learning anytime, anywhere.
 
 ---
-## 2. UI/UX Specification
 
+### Key Benefits:
 
+- Convert notes into podcast audio with just one click.
+- Supports multiple voices and characters for realistic dialogues.
+- Listen anytime, anywhere – while driving, walking, or exercising.
+- Boosts language learning and memory retention.
 
+---
+
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/podcast_create.jpg"/>
@@ -54,12 +27,7 @@ Tính năng **Podcast** trên NoteX giúp bạn tự động biến mọi ghi ch
 <em>Podcast Create</em>
 </p>
 
-
-
-
-
-
-
+---
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/podcast_detail.jpg"/>
@@ -67,189 +35,69 @@ Tính năng **Podcast** trên NoteX giúp bạn tự động biến mọi ghi ch
 <em>Podcast Detail</em>
 </p>
 
+---
+
+## 2. How to Use
 
 ---
 
+### Create a Podcast Episode
 
-
-
-## 3. How to use (Step by step)
-
-
-
-
-
-
-
-
-### Tạo một tập Podcast
-
-
-
-
-
-
-
-
-1. **Vào Note Detail**, chọn tab **Podcast**.
-2. Nhấn nút **Create Podcast**.
-3. Một **Bottom Sheet** sẽ hiện ra.
-4. Chọn:
-- Thời lượng audio: 30s, 60s, 90s hoặc 180s.
-- Giọng đọc, nhân vật (ví dụ: một giọng hỏi, một giọng trả lời…).
-5. Nhấn **Generate Audio** để hệ thống tạo podcast.
-6. Chờ AI xử lý và tạo xong podcast.
-
-
-
-
-
-
-
-
-### Tải file podcast về điện thoại
-
-
-
-
-
-
-
-
-1. Sau khi podcast được tạo xong, màn hình chi tiết podcast sẽ xuất hiện.
-2. Nhấn nút **Export Audio**.
-3. Một **Bottom Sheet** sẽ xuất hiện, chọn vị trí lưu và hoàn tất lưu file audio về thiết bị.
-
-
-
-
-
-
-
+1. **Open the Note Detail** page and switch to the **Podcast** tab.
+2. Tap the **Create Podcast** button.
+3. A **Bottom Sheet** will appear.
+4. Choose the following:
+   - Audio length: 30s, 60s, 90s, or 180s.
+   - Voices and characters (e.g., one asking questions, one responding).
+5. Tap **Generate Audio** to let the system create your podcast.
+6. Wait for the AI to process and generate the episode.
 
 ---
 
+### Download the Podcast File
 
-
-
-
-
-
-
-## 4. Notes / Tips & Tricks
-
-
-
-
-
-
-
-
-- Bạn có thể chọn nhiều giọng đọc và giả lập nhiều nhân vật để podcast sinh động hơn.
-- Giọng đọc AI được tối ưu tự nhiên, phù hợp cả học ngoại ngữ hoặc nghe giải trí.
-- Kết hợp với Flashcard/Quiz giúp học sâu và ghi nhớ lâu hơn.
-- Có thể nghe podcast ngay trên NoteX hoặc tải về máy để nghe offline.
-
-
-
-
-
-
-
+1. After the podcast is generated, the Podcast Detail screen will appear.
+2. Tap the **Export Audio** button.
+3. A **Bottom Sheet** will open — choose the save location and complete the download.
 
 ---
 
+## 3. Notes & Tips
 
+- You can use multiple voices and assign different characters to make the podcast more dynamic.
+- AI-generated voices are optimized to sound natural, perfect for language learning or entertainment.
+- Combine podcasts with flashcards or quizzes for deeper learning and better memory retention.
+- You can listen directly on NoteX or download the podcast to listen offline.
+- Try short formats first (e.g., 60s) to test different voice styles and pacing.
 
+---
 
+## 4. FAQ
 
+### Can I create a podcast with multiple characters and voices?
 
+Yes, NoteX allows you to choose multiple voices and assign them to different roles in the podcast.
 
+---
 
-## 5. FAQ
+### Can I combine a podcast with flashcards or quizzes?
 
+Absolutely! This makes the podcast more interactive and improves recall and reflexes during learning.
 
+---
 
+### Can I download the podcast after it's created?
 
+Yes, just tap on Export Audio and choose where to save it on your device.
 
+---
 
+### Can I listen to the podcast directly in NoteX?
 
+Yes, you can stream the podcast in the app or download it for offline listening.
 
-**Q: Tôi có thể tạo podcast với nhiều nhân vật, nhiều giọng đọc khác nhau không?**
-A: Có, NoteX hỗ trợ chọn nhiều giọng đọc và phân vai các nhân vật trong podcast.
+---
 
+### Do I need to edit the audio manually?
 
-
-
-
-
-
-
-**Q: Podcast có thể kết hợp với quiz hoặc flashcard không?**
-A: Hoàn toàn có thể! Điều này giúp tăng hiệu quả ghi nhớ và luyện phản xạ khi học.
-
-
-
-
-
-
-
-
-**Q: Sau khi tạo podcast, tôi có thể tải file về máy không?**
-A: Có, bạn chỉ cần nhấn Export Audio và chọn vị trí lưu trên thiết bị.
-
-
-
-
-
-
-
-
-**Q: Có thể nghe podcast trực tiếp trên NoteX không?**
-A: Có, bạn có thể nghe trực tiếp trong app hoặc tải file về để nghe offline.
-
-
-
-
-
-
-
-
-**Q: Tôi có cần phải tự chỉnh sửa file audio không?**
-A: Không cần, tất cả các bước tạo và chỉnh sửa đều do AI thực hiện tự động.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+No. All audio processing and editing are handled automatically by NoteX AI.

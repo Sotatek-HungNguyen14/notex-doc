@@ -4,10 +4,6 @@ sidebar_position: 4
 
 # Web Link
 
----
-
-## 1. Overview
-
 The **Web Link** feature allows users to paste URLs from popular platforms such as YouTube, news websites, TikTok, Instagram, Facebook, and more. The system will automatically extract and process the content, including AI-powered **summarization**, **transcript generation** (for videos), and **note creation**.
 
 This feature saves time and is ideal for quickly digesting important information from online content.
@@ -21,7 +17,7 @@ This feature saves time and is ideal for quickly digesting important information
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
   <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_web_link.png" />
@@ -49,7 +45,7 @@ From the main screen, tap **Web Link** to open the URL input panel.
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open the Web Link interface
 
@@ -86,7 +82,7 @@ The system will analyze the content and generate a summary or note.
 
 ---
 
-## 4. Notes & Tips
+## 3. Notes & Tips
 
 - Only **public URLs** are supported. Links requiring login or with restricted access won’t work.
 - For **YouTube**, you **must select the correct spoken language** for accurate transcript generation.
@@ -95,7 +91,7 @@ The system will analyze the content and generate a summary or note.
 
 ---
 
-## 5. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
 ### What types of links are supported?
 

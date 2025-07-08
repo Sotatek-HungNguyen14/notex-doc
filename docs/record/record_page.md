@@ -4,10 +4,6 @@ sidebar_position: 1
 
 # Record
 
----
-
-## 1. Overview
-
 The **Record** feature allows users to quickly and conveniently capture voice content, which is then automatically summarized into text using AI. This feature is ideal for various use cases such as personal notes, team meetings, interviews, lectures, or important conversations that need to be processed later.
 
 The recording process is simple, supports multiple languages, and ensures secure storage even without an internet connection.
@@ -23,7 +19,7 @@ The recording process is simple, supports multiple languages, and ensures secure
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_record.png" alt="UI specification create record screen" />
@@ -37,30 +33,25 @@ From the home screen, tap on the **Record** tab in the bottom navigation to acce
 
 ### Screen Components
 
-| Component       | Type           | Description                                                       |
-| --------------- | -------------- | ----------------------------------------------------------------- |
-| Header          | Header         | Displays the title "Record" and a back/close button.              |
-| Timer           | Text + Counter | Displays the duration of the current recording.                   |
-| Audio Waveform  | Visualizer     | Real-time visualization of the microphone input.                  |
-| Speech Language | Dropdown       | Required: select the spoken language (e.g., English, Vietnamese). |
-| Folder Selector | Dropdown       | Optional: categorize the recording into a folder.                 |
-| Record Button   | Red Button     | Starts the recording; becomes "Done" during recording.            |
-| Reset Button    | Button         | Discards the current recording and starts over.                   |
-| Done Button     | Button         | Ends the session and saves the recording.                         |
-| System Notice   | Dialog         | Reminds the user to select a language before saving.              |
-
-#### Advanced Settings
-
-| Component               | Type       | Description                                                             |
-| ----------------------- | ---------- | ----------------------------------------------------------------------- |
-| Advanced Toggle         | Toggle     | Enables advanced AI customization options.                              |
-| Summary Style           | Dropdown   | Choose the summary tone (e.g., Balanced, Factual, Creative).            |
-| Writing Style           | Dropdown   | Choose the writing tone (e.g., Neutral, Professional, Informal).        |
-| Additional Instructions | Text Input | (Optional) Add guidance to help the AI prioritize or emphasize content. |
+| Component               | Type           | Description                                                             |
+| ----------------------- | -------------- | ----------------------------------------------------------------------- |
+| Header                  | Header         | Displays the title "Record" and a back/close button.                    |
+| Timer                   | Text + Counter | Displays the duration of the current recording.                         |
+| Audio Waveform          | Visualizer     | Real-time visualization of the microphone input.                        |
+| Speech Language         | Dropdown       | Required: select the spoken language (e.g., English, Vietnamese).       |
+| Folder Selector         | Dropdown       | Optional: categorize the recording into a folder.                       |
+| Record Button           | Red Button     | Starts the recording; becomes "Done" during recording.                  |
+| Reset Button            | Button         | Discards the current recording and starts over.                         |
+| Done Button             | Button         | Ends the session and saves the recording.                               |
+| System Notice           | Dialog         | Reminds the user to select a language before saving.                    |
+| Advanced Toggle         | Toggle         | Enables advanced AI customization options.                              |
+| Summary Style           | Dropdown       | Choose the summary tone (e.g., Balanced, Factual, Creative).            |
+| Writing Style           | Dropdown       | Choose the writing tone (e.g., Neutral, Professional, Informal).        |
+| Additional Instructions | Text Input     | (Optional) Add guidance to help the AI prioritize or emphasize content. |
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open the recording screen
 
@@ -103,7 +94,7 @@ Use the **Reset** button to discard the current recording and begin a new sessio
 
 ---
 
-## 4. Notes & Tips
+## 3. Notes & Tips
 
 - **Always select a spoken language before tapping Done** to ensure the recording is processed correctly.
 - **Use folders** to keep your recordings organized.
@@ -114,7 +105,7 @@ Use the **Reset** button to discard the current recording and begin a new sessio
 
 ---
 
-## 5. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
 ### What if I forget to select a language?
 
@@ -159,6 +150,8 @@ Yes. The app **supports pausing and resuming** within the same session.
 
 Yes. Use **Advanced Settings** to define the summary style, tone, and additional instructions.
 
+---
+
 ### Is there a limit on recording time?
 
 Yes. The recording time depends on your account type:
@@ -169,13 +162,19 @@ Yes. The recording time depends on your account type:
 
 If you exceed the allowed duration, you'll be prompted to upgrade your plan.
 
+---
+
 ### Can i use it to record online meetings?
 
 Yes, you can. Just start a recording in NoteX and place your device near the meeting audio source (e.g., your laptop speaker or headset output). The app will capture the audio and process it into notes afterward.
 
+---
+
 ### I'm not able to upload my audio?
 
 ⚠️ Please check your internet connection and ensure the file format is supported (e.g., .m4a, .mp3,…). If you're in a country with upload restrictions, try switching to Wi-Fi or retrying via the "Unsynced" folder in settings.
+
+---
 
 ### What Study Materials Can NoteX Generate?
 
@@ -215,14 +214,4 @@ With **AI Chat**, you can create even more formats using simple prompts. Example
 | 🗺 **Mindmap Outline**     | "Create a mindmap-style outline of the key points."                           |
 | 🎯 **Key Takeaways List** | "List 5 key takeaways from this content."                                     |
 
----
 
-### Summary
-
-NoteX enables not just traditional learning materials like **summaries** or **flashcards**, but also empowers you to:
-
-- **Teach and present** effectively (via slides, podcasts, videos).
-- **Share knowledge professionally** (through LinkedIn, blog posts, newsletters).
-- **Automate study and task workflows** with AI-powered templates.
-
----

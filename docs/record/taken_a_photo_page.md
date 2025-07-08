@@ -4,10 +4,6 @@ sidebar_position: 7
 
 # Take a Photo
 
----
-
-## 1. Overview
-
 The **Take a Photo** feature allows you to **capture images directly** using your camera. The system will automatically detect text in the image (OCR), then summarize, extract, or generate smart notes using AI.
 
 ### Key Benefits:
@@ -20,7 +16,7 @@ The **Take a Photo** feature allows you to **capture images directly** using you
 
 ---
 
-## 2. User Interface (UI/UX Specification)
+## 1. UI/UX Specification
 
 <p align="center">
  <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/create_take_a_photo.png"/>
@@ -42,7 +38,7 @@ The **Take a Photo** feature allows you to **capture images directly** using you
 
 ---
 
-## 3. How to Use
+## 2. How to Use
 
 ### Step 1: Open the photo feature
 
@@ -79,18 +75,7 @@ Tap **Add to Note** to send the image(s) for text extraction and content summari
 
 ---
 
-## 4. After Processing
-
-The system will:
-
-- Extract text using OCR
-- Summarize or transform content into highlights/bullets
-- Adjust results based on selected styles and user instructions
-- Save the result as a note in the selected folder
-
----
-
-## 5. Notes & Tips
+## 3. Notes & Tips
 
 - Ensure **proper lighting** to avoid blurry or overexposed images
 - **Keep your camera steady and aligned** for better recognition
@@ -100,39 +85,39 @@ The system will:
 
 ---
 
-## 6. Frequently Asked Questions (FAQ)
+## 4. FAQ
 
-### ❓ How many photos can I capture per session?
+### How many photos can I capture per session?
 
 You can capture and process **up to 10 images per session**. If more are needed, split into multiple sessions.
 
 ---
 
-### ❓ Is selecting the language mandatory?
+### Is selecting the language mandatory?
 
 It’s optional, but **selecting the correct language** helps improve OCR accuracy.
 
 ---
 
-### ❓ Can I edit photos after capturing them?
+### Can I edit photos after capturing them?
 
 Not directly in-app. However, you can delete and retake any image before submission.
 
 ---
 
-### ❓ Will blurry photos still be processed?
+### Will blurry photos still be processed?
 
 If an image is too blurry or poorly lit, the system might misread or skip the content.
 
 ---
 
-### ❓ Can I get markdown or bullet-point summaries?
+### Can I get markdown or bullet-point summaries?
 
 Yes – simply include it in **Additional Instructions**, e.g., “Convert to markdown”, “Bullet-point summary”.
 
 ---
 
-### ❓ Can I reorder the images?
+### Can I reorder the images?
 
 Yes – you can **drag to reorder** images within the photo preview section.
 

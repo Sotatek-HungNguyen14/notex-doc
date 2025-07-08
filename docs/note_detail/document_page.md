@@ -4,19 +4,18 @@ sidebar_position: 2
 
 # Document
 
-## 1. Giới thiệu
+Displays content in **Document** format – presented clearly and professionally like a formal document, making it easy to read and navigate.
 
-Hiển thị nội dung ở dạng **Document** – trình bày rõ ràng, trực quan như một tài liệu chuyên nghiệp, dễ đọc và tra cứu.
-**Lợi ích nổi bật:**
+### Key Benefits:
 
-- Có thể tải file PDF document về máy chỉ với 1 nút bấm.
-- Tiêu đề, ngày tháng, hashtag, mục lục, các phần nội dung được trình bày rõ ràng.
-- Hỗ trợ xuất riêng từng định dạng, thuận tiện cho từng mục đích sử dụng.
-- Nội dung dài được trình bày mạch lạc, dễ dàng xem lại hoặc chia sẻ cho bạn bè/đồng nghiệp.
+- Download the PDF version of the document with a single click.
+- Clear layout with title, date, hashtags, table of contents, and well-structured sections.
+- Export each format separately, tailored to different usage needs.
+- Ideal for viewing long-form content clearly, and sharing with friends or colleagues.
 
 ---
 
-## 2. UI/UX Specification
+## 1. UI/UX Specification
 
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/document.jpg"/>
@@ -27,33 +26,43 @@ Hiển thị nội dung ở dạng **Document** – trình bày rõ ràng, trự
 <p align="center">
 <img src="https://pub-661d733d32f14d8684c7617d2f2e3372.r2.dev/docs/document_export.jpg"/>
 <br />
-<em>Option export pdf or docx</em>
+<em>Export options: PDF or DOCX</em>
 </p>
 
-## 3. How to Use
+---
 
-1. Khi **tạo mới hoặc chỉnh sửa ghi chú**, chọn type là **doc** để bật chế độ hiển thị Document.
-2. Trong trang **Note Detail**, chọn tab **Document** ở phía trên.
-3. Hệ thống sẽ **tự động trình bày nội dung** dưới dạng document đầy đủ: tiêu đề, ngày tháng, hashtag, nội dung, hình ảnh minh họa (nếu có).
-4. Có thể nhấn vào **biểu tượng tải xuống** (download) để lưu lại tài liệu dưới dạng PDF hoặc các định dạng khác (nếu hỗ trợ).
-5. Chuyển đổi qua lại giữa các chế độ **Summary / Document / Mindmap / Short Video** linh hoạt.
+## 2. How to Use
+
+1. When **creating or editing a note**, select the type as **doc** to enable the Document view.
+2. In the **Note Detail** page, switch to the **Document** tab at the top.
+3. The system will **automatically format your content** as a structured document: title, date, hashtags, body content, and any supporting images.
+4. Click the **download icon** to save the document as a PDF or other available formats.
+5. Freely switch between **Summary / Document / Mindmap / Short Video** tabs as needed.
 
 ---
 
-## 4. Notes / Tips & Tricks
+## 3. Notes & Tips
 
-- **Chỉ những note có type là `doc` mới hiển thị được ở chế độ Document.**
-- Nội dung sẽ được tự động cập nhật khi bạn chỉnh sửa hoặc thêm mới ghi chú.
+- Only notes with the type set to `doc` can be displayed in Document mode.
+- The content is automatically updated whenever you edit or add to the note.
 
 ---
 
-## 5. FAQ – Câu hỏi thường gặp
+## 4. FAQ
 
-**Q1. Tại sao ghi chú của tôi không hiện ở chế độ Document?**
-A1: Bạn cần đảm bảo khi tạo/chỉnh sửa đã chọn type là doc.
+### Why is my note not showing in Document mode?
 
-**Q2. Làm thế nào để tải file Document về máy?**
-A2: Chỉ cần nhấn biểu tượng tải xuống (download) trên tab Document, tài liệu sẽ được xuất ra file PDF.
+Please make sure the note's type is set to `doc` during creation or editing.
 
-**Q3. Tôi không tìm thấy tab Document trong Note Detail ?**
-A3: Trong màn Setting mục Customize Note Tabs bạn cần chọn tab Document và lưu lại, khi đó tab Document mới hiển thị trong Note Detail
+---
+
+### How can I download the document to my device?
+
+Simply click the download icon on the Document tab – the file will be exported as a PDF.
+
+---
+
+### I can’t find the Document tab in Note Detail?
+
+Go to **Settings > Customize Note Tabs**, enable the **Document** tab, and save.  
+Once enabled, the Document tab will appear in the Note Detail view.
