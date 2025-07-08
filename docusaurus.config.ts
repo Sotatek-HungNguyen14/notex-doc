@@ -104,7 +104,7 @@ const config: Config = {
         {
           title: 'Download',
           items: [
-            { label: 'iOS', href: 'https://apps.apple.com/us/app/notex-ai/id6644901010' },
+            { label: 'iOS', href: 'https://apps.apple.com/us/app/notex-ai-note-taker-notebook/id6654910983' },
             { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.sota.ainotex&hl=en' },
             { label: 'Web', href: 'https://notexapp.com' },
           ],
@@ -125,6 +125,17 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      require.resolve('docusaurus-plugin-search-local'),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+      },
+    ],
+  ],
 };
 
 export default config;
