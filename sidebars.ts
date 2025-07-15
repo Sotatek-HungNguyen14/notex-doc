@@ -120,7 +120,7 @@ const sidebars: SidebarsConfig = {
         'setting/recording_schedule_page',
         'setting/referral_page',
         'multiple_languages/multiple_languages_page',
-        'user_subcription/user_subcription_page',
+        // 'user_subcription/user_subcription_page',
       ],
     },
     {
